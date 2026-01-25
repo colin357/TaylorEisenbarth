@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Down Payment Assistance in Alaska - Programs & Grants 2026 | Daniel Fowler",
+  title: "Down Payment Assistance in Alaska - Programs & Grants 2026 | Taylor Eisenbarth",
   description: "Discover Alaska down payment assistance programs including AHFC grants, DPA programs, and first-time homebuyer assistance. Get help with your Alaska down payment.",
   keywords: "down payment assistance alaska, alaska down payment assistance, first time homebuyer alaska, AHFC down payment assistance, alaska housing finance corporation",
 };
@@ -22,7 +22,7 @@ export default function DownPaymentAssistanceAlaska() {
             Down Payment Assistance in Alaska: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Alaska Down Payment Assistance Expert</span>
           </div>
@@ -54,7 +54,7 @@ export default function DownPaymentAssistanceAlaska() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

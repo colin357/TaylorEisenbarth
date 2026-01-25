@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import MortgageCalculator from "./MortgageCalculator";
 
 export const metadata: Metadata = {
-  title: "Mortgage Calculator Missouri - Calculate Your Monthly Payment | Daniel Fowler",
+  title: "Mortgage Calculator Missouri - Calculate Your Monthly Payment | Taylor Eisenbarth",
   description: "Use our Missouri mortgage calculator to estimate your monthly payment. Get accurate calculations including property taxes, insurance, and HOA fees for Missouri homes.",
   keywords: "mortgage calculator Missouri, Missouri mortgage calculator, home loan calculator Missouri, Missouri home payment calculator, mortgage payment calculator Missouri",
 };
@@ -25,7 +25,7 @@ export default function MortgageCalculatorMissouri() {
             Mortgage Calculator Missouri: Estimate Your Monthly Payment
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed in Missouri</span>
           </div>
@@ -74,7 +74,7 @@ export default function MortgageCalculatorMissouri() {
               href="/#contact"
               className="inline-block bg-primary-green hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

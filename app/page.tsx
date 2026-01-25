@@ -159,7 +159,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-              Meet Daniel Fowler
+              Meet Taylor Eisenbarth
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary-green to-emerald-600 mx-auto rounded-full"></div>
           </div>
@@ -170,8 +170,8 @@ export default function Home() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary-green to-emerald-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition"></div>
                 <div className="relative">
                   <Image
-                    src="/images/daniel-fowler-2401594.png"
-                    alt="Daniel Fowler - Mortgage Loan Officer"
+                    src="/images/taylor-eisenbarth.png"
+                    alt="Taylor Eisenbarth - Mortgage Loan Officer"
                     width={400}
                     height={400}
                     className="rounded-3xl shadow-2xl object-cover"
@@ -183,15 +183,15 @@ export default function Home() {
             <div className="md:col-span-3 space-y-6">
               <div className="bg-white rounded-2xl p-8 shadow-xl border border-gray-100">
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  Daniel Fowler is a mortgage loan officer focused on making home financing <span className="font-semibold text-primary-green">simple, transparent, and stress-free</span>. He helps first-time buyers, repeat homeowners, and investors understand their options clearly so they can make confident decisions.
+                  Taylor Eisenbarth is a mortgage loan officer focused on making home financing <span className="font-semibold text-primary-green">simple, transparent, and stress-free</span>. He helps first-time buyers, repeat homeowners, and investors understand their options clearly so they can make confident decisions.
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  Daniel believes the mortgage process should never feel confusing or rushed. His approach is <span className="font-semibold text-primary-green">education-first</span>, walking clients through numbers, loan programs, and strategies so there are no surprises at the closing table. Whether it's finding the right program, minimizing upfront costs, or structuring a loan that fits long-term goals, Daniel works to put clients in the strongest position possible.
+                  Taylor believes the mortgage process should never feel confusing or rushed. His approach is <span className="font-semibold text-primary-green">education-first</span>, walking clients through numbers, loan programs, and strategies so there are no surprises at the closing table. Whether it's finding the right program, minimizing upfront costs, or structuring a loan that fits long-term goals, Taylor works to put clients in the strongest position possible.
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Based in <span className="font-semibold">Oklahoma</span>, Daniel works with a wide range of borrowers and prides himself on fast communication, honest advice, and solutions that make sense for real life. His goal is not just to get loans approved, but to build long-term relationships built on trust and results.
+                  Based in <span className="font-semibold">Oklahoma</span>, Taylor works with a wide range of borrowers and prides himself on fast communication, honest advice, and solutions that make sense for real life. His goal is not just to get loans approved, but to build long-term relationships built on trust and results.
                 </p>
 
                 <div className="mt-8 pt-6 border-t border-gray-200">

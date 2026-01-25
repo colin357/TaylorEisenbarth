@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VA Loans in Arkansas - Benefits for Veterans 2026 | Daniel Fowler",
+  title: "VA Loans in Arkansas - Benefits for Veterans 2026 | Taylor Eisenbarth",
   description: "VA loans in Arkansas offer zero down payment, no PMI, and competitive rates for veterans and military members. Learn about VA loan benefits near Little Rock Air Force Base and throughout Arkansas.",
   keywords: "VA loan arkansas, arkansas VA loan, VA mortgage arkansas, VA home loan arkansas",
 };
@@ -22,7 +22,7 @@ export default function VALoanArkansasS() {
             VA Loans in Arkansas: Benefits for Our Veterans
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Proud to Serve Arkansas Veterans</span>
           </div>
@@ -54,7 +54,7 @@ export default function VALoanArkansasS() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

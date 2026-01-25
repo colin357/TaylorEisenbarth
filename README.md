@@ -1,6 +1,6 @@
-# Daniel Fowler Home Loans Website
+# Taylor Eisenbarth Home Loans Website
 
-A modern, professional website for Daniel Fowler Home Loans built with Next.js and deployed on Vercel.
+A modern, professional website for Taylor Eisenbarth Home Loans built with Next.js and deployed on Vercel.
 
 ## Features
 
@@ -28,7 +28,7 @@ A modern, professional website for Daniel Fowler Home Loans built with Next.js a
 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd DanielHomeLoans
+cd TaylorEisenbarth
 ```
 
 2. Install dependencies
@@ -77,7 +77,7 @@ Vercel will automatically detect the Next.js configuration and deploy your site.
 
 - **Header**: Navigation with smooth scrolling
 - **Hero**: Eye-catching introduction with call-to-action
-- **About**: Why choose Daniel Fowler Home Loans
+- **About**: Why choose Taylor Eisenbarth Home Loans
 - **Services**: Home purchase loans and refinancing options
 - **Process**: 4-step simple process
 - **Success Stories**: Photo gallery of happy clients
@@ -102,4 +102,4 @@ Edit the content in `app/page.tsx` to update:
 
 ## License
 
-© 2024 Daniel Fowler Home Loans. All rights reserved.
+© 2024 Taylor Eisenbarth Home Loans. All rights reserved.

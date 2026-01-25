@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Conventional Loans in Alaska - Requirements & Rates 2026 | Daniel Fowler",
-  description: "Learn about conventional loans in Alaska. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance. Get expert guidance from Daniel Fowler.",
+  title: "Conventional Loans in Alaska - Requirements & Rates 2026 | Taylor Eisenbarth",
+  description: "Learn about conventional loans in Alaska. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance. Get expert guidance from Taylor Eisenbarth.",
   keywords: "conventional loan alaska, alaska conventional mortgage, conventional home loan alaska, conventional mortgage rates alaska",
 };
 
@@ -22,7 +22,7 @@ export default function ConventionalLoanAlaska() {
             Conventional Loans in Alaska: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed Alaska Mortgage Professional</span>
           </div>
@@ -54,7 +54,7 @@ export default function ConventionalLoanAlaska() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

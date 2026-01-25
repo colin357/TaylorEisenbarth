@@ -256,7 +256,7 @@ export default function Landing2Page() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4 text-sm leading-relaxed">
-                "Daniel and the Fairway team helped us navigate every step with clear communication. No surprises, just excellent service from start to finish!"
+                "Taylor and the Fairway team helped us navigate every step with clear communication. No surprises, just excellent service from start to finish!"
               </p>
               <p className="font-bold text-gray-900">Drew C</p>
             </div>
@@ -270,7 +270,7 @@ export default function Landing2Page() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4 text-sm leading-relaxed">
-                "Working with Daniel was amazing! He made the entire process smooth and was always available to answer my questions. Highly recommend!"
+                "Working with Taylor was amazing! He made the entire process smooth and was always available to answer my questions. Highly recommend!"
               </p>
               <p className="font-bold text-gray-900">Justin J</p>
             </div>
@@ -284,7 +284,7 @@ export default function Landing2Page() {
                 ))}
               </div>
               <p className="text-gray-700 mb-4 text-sm leading-relaxed">
-                "As a first-time home buyer, I had a lot of questions. Daniel was patient and helped me understand every step. We got the perfect home!"
+                "As a first-time home buyer, I had a lot of questions. Taylor was patient and helped me understand every step. We got the perfect home!"
               </p>
               <p className="font-bold text-gray-900">Sarah M</p>
             </div>
@@ -370,15 +370,15 @@ export default function Landing2Page() {
         </div>
       </section>
 
-      {/* About Daniel Section */}
+      {/* About Taylor Section */}
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8 items-center">
             <div className="md:col-span-2">
               <div className="relative">
                 <Image
-                  src="/images/daniel-fowler-2401594.png"
-                  alt="Daniel Fowler"
+                  src="/images/taylor-eisenbarth.png"
+                  alt="Taylor Eisenbarth"
                   width={400}
                   height={400}
                   className="rounded-2xl shadow-2xl"
@@ -388,7 +388,7 @@ export default function Landing2Page() {
 
             <div className="md:col-span-3">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Hi, I'm Daniel Fowler
+                Hi, I'm Taylor Eisenbarth
               </h2>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 As a former financial advisor and Iraq War combat vet, I've been dedicated to helping individuals and families achieve their real estate dreams. My goal is simple: make the mortgage process clear, straightforward, and stress-free—so you can focus on finding your perfect home. I genuinely care about my clients' needs and well-being, and I always prioritize transparency over sales tactics. Let me help you navigate your home financing with the highest levels of integrity and care.

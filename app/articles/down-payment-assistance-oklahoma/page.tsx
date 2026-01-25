@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Down Payment Assistance in Oklahoma - Programs & Grants 2026 | Daniel Fowler",
+  title: "Down Payment Assistance in Oklahoma - Programs & Grants 2026 | Taylor Eisenbarth",
   description: "Discover Oklahoma down payment assistance programs including OHFA grants, DPA programs, and first-time homebuyer assistance. Get up to $15,000 in down payment help.",
   keywords: "down payment assistance oklahoma, oklahoma down payment assistance, first time homebuyer oklahoma, OHFA down payment assistance, oklahoma housing finance agency",
 };
@@ -23,7 +23,7 @@ export default function DownPaymentAssistanceOklahoma() {
             Down Payment Assistance in Oklahoma: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Oklahoma Down Payment Assistance Expert</span>
           </div>
@@ -61,7 +61,7 @@ export default function DownPaymentAssistanceOklahoma() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

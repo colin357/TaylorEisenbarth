@@ -189,7 +189,7 @@ export default function MortgageCalculator() {
           </div>
           <p className="text-xs text-gray-500 mt-4">
             Disclaimer: This estimate is for informational purposes only. Rates and payments are not guaranteed and may
-            change based on your credit profile and lender terms. Contact Daniel for professional guidance and a
+            change based on your credit profile and lender terms. Contact Taylor for professional guidance and a
             personalized quote.
           </p>
         </div>

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import MortgageCalculator from "./MortgageCalculator";
 
 export const metadata: Metadata = {
-  title: "Mortgage Calculator Arizona - Calculate Your Monthly Payment | Daniel Fowler",
+  title: "Mortgage Calculator Arizona - Calculate Your Monthly Payment | Taylor Eisenbarth",
   description: "Use our Arizona mortgage calculator to estimate your monthly payment. Get accurate calculations including property taxes, insurance, and HOA fees for Arizona homes.",
   keywords: "mortgage calculator Arizona, Arizona mortgage calculator, home loan calculator Arizona, Arizona home payment calculator, mortgage payment calculator Arizona",
 };
@@ -25,7 +25,7 @@ export default function MortgageCalculatorArizona() {
             Mortgage Calculator Arizona: Estimate Your Monthly Payment
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed in Arizona</span>
           </div>
@@ -74,7 +74,7 @@ export default function MortgageCalculatorArizona() {
               href="/#contact"
               className="inline-block bg-primary-green hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

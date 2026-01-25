@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Conventional Loans in Arkansas - Requirements & Rates 2026 | Daniel Fowler",
-  description: "Learn about conventional loans in Arkansas. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance. Get expert guidance from Daniel Fowler.",
+  title: "Conventional Loans in Arkansas - Requirements & Rates 2026 | Taylor Eisenbarth",
+  description: "Learn about conventional loans in Arkansas. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance. Get expert guidance from Taylor Eisenbarth.",
   keywords: "conventional loan arkansas, arkansas conventional mortgage, conventional home loan arkansas, conventional mortgage rates arkansas",
 };
 
@@ -23,7 +23,7 @@ export default function ConventionalLoanArkansas() {
             Conventional Loans in Arkansas: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed Arkansas Mortgage Professional</span>
           </div>
@@ -61,7 +61,7 @@ export default function ConventionalLoanArkansas() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

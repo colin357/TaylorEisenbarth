@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VA Loans in Alaska - Benefits for Veterans 2026 | Daniel Fowler",
+  title: "VA Loans in Alaska - Benefits for Veterans 2026 | Taylor Eisenbarth",
   description: "VA loans in Alaska offer zero down payment, no PMI, and competitive rates for veterans and military members. Learn about VA loan benefits near JBER and throughout Alaska.",
   keywords: "VA loan Alaska, Alaska VA loan, VA mortgage Alaska, VA home loan Alaska, JBER VA loan",
 };
@@ -23,7 +23,7 @@ export default function VALoanAlaska() {
             VA Loans in Alaska: Benefits for Our Veterans
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Proud to Serve Alaska Veterans</span>
           </div>
@@ -59,7 +59,7 @@ export default function VALoanAlaska() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

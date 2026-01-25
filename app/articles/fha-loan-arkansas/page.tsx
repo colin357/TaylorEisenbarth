@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FHA Loans in Arkansas - Requirements & Benefits 2026 | Daniel Fowler",
-  description: "Learn about FHA loans in Arkansas. Low down payment (3.5%), flexible credit requirements, and competitive rates for Arkansas homebuyers. Get expert guidance from Daniel Fowler.",
+  title: "FHA Loans in Arkansas - Requirements & Benefits 2026 | Taylor Eisenbarth",
+  description: "Learn about FHA loans in Arkansas. Low down payment (3.5%), flexible credit requirements, and competitive rates for Arkansas homebuyers. Get expert guidance from Taylor Eisenbarth.",
   keywords: "FHA loan Arkansas, Arkansas FHA loan, FHA mortgage Arkansas, FHA loan requirements Arkansas",
 };
 
@@ -22,7 +22,7 @@ export default function FHALoanArkansas() {
             FHA Loans in Arkansas: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed Arkansas Mortgage Professional</span>
           </div>
@@ -54,7 +54,7 @@ export default function FHALoanArkansas() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

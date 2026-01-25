@@ -61,7 +61,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {{
-  title: "Conventional Loans in {name} - Requirements & Rates 2026 | Daniel Fowler",
+  title: "Conventional Loans in {name} - Requirements & Rates 2026 | Taylor Eisenbarth",
   description: "Learn about conventional loans in {name}. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance.",
   keywords: "conventional loan {lower}, {lower} conventional mortgage, conventional home loan {lower}",
 }};
@@ -80,7 +80,7 @@ export default function ConventionalLoan{cap}() {{
             Conventional Loans in {name}: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed {name} Mortgage Professional</span>
           </div>
@@ -112,7 +112,7 @@ export default function ConventionalLoan{cap}() {{
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 
@@ -189,7 +189,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {{
-  title: "Down Payment Assistance in {name} - Programs & Grants 2026 | Daniel Fowler",
+  title: "Down Payment Assistance in {name} - Programs & Grants 2026 | Taylor Eisenbarth",
   description: "Discover {name} down payment assistance programs including {dpa} grants and first-time homebuyer assistance.",
   keywords: "down payment assistance {lower}, {lower} down payment assistance, first time homebuyer {lower}",
 }};
@@ -208,7 +208,7 @@ export default function DownPaymentAssistance{cap}() {{
             Down Payment Assistance in {name}: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>{name} Down Payment Assistance Expert</span>
           </div>
@@ -240,7 +240,7 @@ export default function DownPaymentAssistance{cap}() {{
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 
@@ -319,7 +319,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {{
-  title: "HELOC in {name} - Home Equity Lines of Credit 2026 | Daniel Fowler",
+  title: "HELOC in {name} - Home Equity Lines of Credit 2026 | Taylor Eisenbarth",
   description: "Learn about HELOCs in {name}. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits.",
   keywords: "HELOC {lower}, {lower} HELOC, home equity line of credit {lower}",
 }};
@@ -338,7 +338,7 @@ export default function HELOC{cap}() {{
             HELOC in {name}: Unlock Your Home's Equity
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>{name} HELOC Specialist</span>
           </div>
@@ -402,7 +402,7 @@ export default function HELOC{cap}() {{
                 href="/#contact"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
-                Speak With Daniel
+                Speak With Taylor
               </Link>
             </div>
           </div>
@@ -446,7 +446,7 @@ export default function HELOC{cap}() {{
 # Note: Mortgage calculator, FHA loan, and VA loan templates would be added here
 # For brevity, showing structure for 3 article types
 
-base_path = '/home/user/DanielHomeLoans/app/articles'
+base_path = '/home/user/TaylorEisenbarth/app/articles'
 
 # Create articles
 count = 0

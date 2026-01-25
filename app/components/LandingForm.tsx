@@ -47,7 +47,7 @@ export default function LandingForm() {
           </div>
           <h3 className="text-3xl font-bold text-gray-900 mb-3">Thank You!</h3>
           <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-            Your information has been submitted successfully. Daniel will contact you shortly to discuss your options.
+            Your information has been submitted successfully. Taylor will contact you shortly to discuss your options.
           </p>
           <a
             href="tel:+19184029630"

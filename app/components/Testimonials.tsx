@@ -13,31 +13,31 @@ const testimonials: Testimonial[] = [
   {
     name: "Jonathan & Isaac",
     location: "Holland, OK",
-    text: "Daniel and the fairway team took such great care of my fiancé and I - from start to finish, guiding us through the process and explaining it in ways that made perfect sense for us. Daniel took time to make sure we understood the process and kept a clear line of communication open so we weren't wondering where our refinance was at in the process!",
+    text: "Taylor and the fairway team took such great care of my fiancé and I - from start to finish, guiding us through the process and explaining it in ways that made perfect sense for us. Taylor took time to make sure we understood the process and kept a clear line of communication open so we weren't wondering where our refinance was at in the process!",
     rating: 5
   },
   {
     name: "Christina",
     location: "Tulsa, OK",
-    text: "Daniel was easy to understand, kept me informed every step of the way, helped advise me on moves to make to raise my credit score that I wasn't aware of. He helped make my dreams a reality in less than 3 months.",
+    text: "Taylor was easy to understand, kept me informed every step of the way, helped advise me on moves to make to raise my credit score that I wasn't aware of. He helped make my dreams a reality in less than 3 months.",
     rating: 5
   },
   {
     name: "Rebecca",
     location: "Lawrence Creek, OK",
-    text: "Daniel made this process so much easier than it was! We had multiple set backs as we were buying while selling our home and he always had/found an answer to any problem we had! He even answered on his family vacation! 10/10 recommend you request Daniel to handle you loan process!",
+    text: "Taylor made this process so much easier than it was! We had multiple set backs as we were buying while selling our home and he always had/found an answer to any problem we had! He even answered on his family vacation! 10/10 recommend you request Taylor to handle you loan process!",
     rating: 5
   },
   {
     name: "Cascases",
     location: "Tulsa, OK",
-    text: "Daniel Fowler!!! He is amazing, made the entire process so smooth. He worked none stop making sure I understood every process thoroughly, I'm a first time home buyer so I had lots of questions. He's very patient! He Never left an email, call or txt unanswered. I wouldn't have wanted to do this with anyone else. He was a perfect fit for me.",
+    text: "Taylor Eisenbarth!!! He is amazing, made the entire process so smooth. He worked none stop making sure I understood every process thoroughly, I'm a first time home buyer so I had lots of questions. He's very patient! He Never left an email, call or txt unanswered. I wouldn't have wanted to do this with anyone else. He was a perfect fit for me.",
     rating: 5
   },
   {
     name: "Clifford",
     location: "Tulsa, OK",
-    text: "Daniel was a great. This was our first home and he was patient and answered all of our questions and helped us every step of the way. Was extremely easy to work with and made the whole process super comfortable. He went above and beyond and got us the loan we needed. We really appreciate the whole team from Fairway Mortgage. They all went above and beyond.",
+    text: "Taylor was a great. This was our first home and he was patient and answered all of our questions and helped us every step of the way. Was extremely easy to work with and made the whole process super comfortable. He went above and beyond and got us the loan we needed. We really appreciate the whole team from Fairway Mortgage. They all went above and beyond.",
     rating: 5
   },
   {

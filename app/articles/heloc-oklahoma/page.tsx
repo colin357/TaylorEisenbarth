@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HELOC in Oklahoma - Home Equity Lines of Credit 2026 | Daniel Fowler",
-  description: "Learn about HELOCs in Oklahoma. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits. Get expert HELOC guidance from Daniel Fowler.",
+  title: "HELOC in Oklahoma - Home Equity Lines of Credit 2026 | Taylor Eisenbarth",
+  description: "Learn about HELOCs in Oklahoma. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits. Get expert HELOC guidance from Taylor Eisenbarth.",
   keywords: "HELOC Oklahoma, Oklahoma HELOC, home equity line of credit oklahoma, oklahoma home equity loan, HELOC rates oklahoma",
 };
 
@@ -23,7 +23,7 @@ export default function HELOCOklahoma() {
             HELOC in Oklahoma: Unlock Your Home's Equity
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Oklahoma HELOC Specialist</span>
           </div>
@@ -396,7 +396,7 @@ export default function HELOCOklahoma() {
                 href="/#contact"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
-                Speak With Daniel
+                Speak With Taylor
               </Link>
             </div>
           </div>

@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "15 vs 30 Year Mortgage: Which Term Is Right for You? | Daniel Fowler",
-  description: "Compare 15-year and 30-year mortgages to find the best loan term for your financial goals. Expert guidance from Daniel Fowler at Fairway Independent Mortgage.",
+  title: "15 vs 30 Year Mortgage: Which Term Is Right for You? | Taylor Eisenbarth",
+  description: "Compare 15-year and 30-year mortgages to find the best loan term for your financial goals. Expert guidance from Taylor Eisenbarth at Fairway Independent Mortgage.",
   keywords: "15 vs 30 year mortgage, 15 year mortgage, 30 year mortgage, mortgage term comparison, best mortgage term, mortgage loan length",
 };
 
@@ -23,7 +23,7 @@ export default function FifteenVsThirtyYearMortgage() {
             15 vs 30 Year Mortgage: Making the Right Choice
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Last Updated January 2026</span>
           </div>

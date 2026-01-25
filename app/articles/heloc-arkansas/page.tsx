@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HELOC in Arkansas - Home Equity Lines of Credit 2026 | Daniel Fowler",
-  description: "Learn about HELOCs in Arkansas. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits. Get expert HELOC guidance from Daniel Fowler.",
+  title: "HELOC in Arkansas - Home Equity Lines of Credit 2026 | Taylor Eisenbarth",
+  description: "Learn about HELOCs in Arkansas. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits. Get expert HELOC guidance from Taylor Eisenbarth.",
   keywords: "HELOC Arkansas, Arkansas HELOC, home equity line of credit arkansas, arkansas home equity loan, HELOC rates arkansas",
 };
 
@@ -23,7 +23,7 @@ export default function HELOCArkansas() {
             HELOC in Arkansas: Unlock Your Home's Equity
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Arkansas HELOC Specialist</span>
           </div>
@@ -396,7 +396,7 @@ export default function HELOCArkansas() {
                 href="/#contact"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
-                Speak With Daniel
+                Speak With Taylor
               </Link>
             </div>
           </div>

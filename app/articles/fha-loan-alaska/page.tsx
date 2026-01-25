@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FHA Loans in Alaska - Requirements & Benefits 2026 | Daniel Fowler",
-  description: "Learn about FHA loans in Alaska. Low down payment (3.5%), flexible credit requirements, and competitive rates for Alaska homebuyers. Get expert guidance from Daniel Fowler.",
+  title: "FHA Loans in Alaska - Requirements & Benefits 2026 | Taylor Eisenbarth",
+  description: "Learn about FHA loans in Alaska. Low down payment (3.5%), flexible credit requirements, and competitive rates for Alaska homebuyers. Get expert guidance from Taylor Eisenbarth.",
   keywords: "FHA loan Alaska, Alaska FHA loan, FHA mortgage Alaska, FHA loan requirements Alaska, Alaska FHA loans",
 };
 
@@ -23,7 +23,7 @@ export default function FHALoanAlaska() {
             FHA Loans in Alaska: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed Alaska Mortgage Professional</span>
           </div>
@@ -60,7 +60,7 @@ export default function FHALoanAlaska() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

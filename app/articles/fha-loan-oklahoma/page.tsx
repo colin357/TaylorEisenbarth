@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FHA Loans in Oklahoma - Requirements & Benefits 2026 | Daniel Fowler",
-  description: "Learn about FHA loans in Oklahoma. Low down payment (3.5%), flexible credit requirements, and competitive rates for Oklahoma homebuyers. Get expert guidance from Daniel Fowler.",
+  title: "FHA Loans in Oklahoma - Requirements & Benefits 2026 | Taylor Eisenbarth",
+  description: "Learn about FHA loans in Oklahoma. Low down payment (3.5%), flexible credit requirements, and competitive rates for Oklahoma homebuyers. Get expert guidance from Taylor Eisenbarth.",
   keywords: "FHA loan Oklahoma, Oklahoma FHA loan, FHA mortgage Oklahoma, FHA loan requirements Oklahoma, Oklahoma FHA loans",
 };
 
@@ -51,7 +51,7 @@ export default function FHALoanOklahoma() {
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
                   </svg>
-                  <span className="font-medium">By Daniel Fowler</span>
+                  <span className="font-medium">By Taylor Eisenbarth</span>
                 </div>
                 <span className="text-emerald-200">•</span>
                 <div className="flex items-center gap-2 text-emerald-100">
@@ -134,7 +134,7 @@ export default function FHALoanOklahoma() {
                   href="/#contact"
                   className="block bg-white text-primary-green hover:bg-emerald-50 text-center font-bold px-6 py-3 rounded-lg transition"
                 >
-                  Contact Daniel
+                  Contact Taylor
                 </Link>
               </div>
             </div>
@@ -205,7 +205,7 @@ export default function FHALoanOklahoma() {
                       href="/#contact"
                       className="inline-flex items-center gap-2 bg-white text-blue-600 hover:bg-blue-50 font-bold px-8 py-4 rounded-xl transition shadow-lg hover:shadow-xl transform hover:scale-105"
                     >
-                      Contact Daniel Today
+                      Contact Taylor Today
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>

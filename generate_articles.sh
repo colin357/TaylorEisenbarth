@@ -20,13 +20,13 @@ create_va_article() {
   local cities=$6
   local bases=$7
 
-  cat > "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx" << 'EOF'
+  cat > "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx" << 'EOF'
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VA Loans in STATE_CAP - Benefits for Veterans 2026 | Daniel Fowler",
+  title: "VA Loans in STATE_CAP - Benefits for Veterans 2026 | Taylor Eisenbarth",
   description: "VA loans in STATE_CAP offer zero down payment, no PMI, and competitive rates for veterans and military members. Learn about VA loan benefits near BASES and throughout STATE_CAP.",
   keywords: "VA loan STATE_LOWER, STATE_LOWER VA loan, VA mortgage STATE_LOWER, VA home loan STATE_LOWER",
 };
@@ -45,7 +45,7 @@ export default function VALoanSTATE_CAPS() {
             VA Loans in STATE_CAP: Benefits for Our Veterans
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Proud to Serve STATE_CAP Veterans</span>
           </div>
@@ -77,7 +77,7 @@ export default function VALoanSTATE_CAPS() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 
@@ -163,13 +163,13 @@ export default function VALoanSTATE_CAPS() {
 EOF
 
   # Replace placeholders
-  sed -i "s/STATE_CAP/${state_cap}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
-  sed -i "s/STATE_LOWER/${state_lower}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
-  sed -i "s/STATE_CAPS/${state_cap^}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
-  sed -i "s/MEDIAN/${median}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
-  sed -i "s/CONV_LIMIT/${conv_limit}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
-  sed -i "s/CITIES/${cities}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
-  sed -i "s/BASES/${bases}/g" "/home/user/DanielHomeLoans/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/STATE_CAP/${state_cap}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/STATE_LOWER/${state_lower}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/STATE_CAPS/${state_cap^}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/MEDIAN/${median}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/CONV_LIMIT/${conv_limit}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/CITIES/${cities}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
+  sed -i "s/BASES/${bases}/g" "/home/user/TaylorEisenbarth/app/articles/va-loan-${state_lower}/page.tsx"
 }
 
 # Process Arkansas VA loan (4 remaining)

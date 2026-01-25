@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import MortgageCalculator from "./MortgageCalculator";
 
 export const metadata: Metadata = {
-  title: "Mortgage Calculator Arkansas - Calculate Your Monthly Payment | Daniel Fowler",
+  title: "Mortgage Calculator Arkansas - Calculate Your Monthly Payment | Taylor Eisenbarth",
   description: "Use our Arkansas mortgage calculator to estimate your monthly payment. Get accurate calculations including property taxes, insurance, and HOA fees for Arkansas homes.",
   keywords: "mortgage calculator Arkansas, Arkansas mortgage calculator, home loan calculator Arkansas, Arkansas home payment calculator, mortgage payment calculator Arkansas",
 };
@@ -24,7 +24,7 @@ export default function MortgageCalculatorArkansas() {
             Mortgage Calculator Arkansas: Estimate Your Monthly Payment
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed in Arkansas</span>
           </div>
@@ -73,7 +73,7 @@ export default function MortgageCalculatorArkansas() {
               href="/#contact"
               className="inline-block bg-primary-green hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

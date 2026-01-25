@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Down Payment Assistance in Arkansas - Programs & Grants 2026 | Daniel Fowler",
+  title: "Down Payment Assistance in Arkansas - Programs & Grants 2026 | Taylor Eisenbarth",
   description: "Discover Arkansas down payment assistance programs including ADFA grants, DPA programs, and first-time homebuyer assistance. Get up to $15,000 in down payment help.",
   keywords: "down payment assistance arkansas, arkansas down payment assistance, first time homebuyer arkansas, ADFA down payment assistance, arkansas development finance authority",
 };
@@ -23,7 +23,7 @@ export default function DownPaymentAssistanceArkansas() {
             Down Payment Assistance in Arkansas: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Arkansas Down Payment Assistance Expert</span>
           </div>
@@ -61,7 +61,7 @@ export default function DownPaymentAssistanceArkansas() {
               href="/#contact"
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import MortgageCalculator from "./MortgageCalculator";
 
 export const metadata: Metadata = {
-  title: "Mortgage Calculator Kentucky - Calculate Your Monthly Payment | Daniel Fowler",
+  title: "Mortgage Calculator Kentucky - Calculate Your Monthly Payment | Taylor Eisenbarth",
   description: "Use our Kentucky mortgage calculator to estimate your monthly payment. Get accurate calculations including property taxes, insurance, and HOA fees for Kentucky homes.",
   keywords: "mortgage calculator Kentucky, Kentucky mortgage calculator, home loan calculator Kentucky, Kentucky home payment calculator, mortgage payment calculator Kentucky",
 };
@@ -25,7 +25,7 @@ export default function MortgageCalculatorKentucky() {
             Mortgage Calculator Kentucky: Estimate Your Monthly Payment
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Licensed in Kentucky</span>
           </div>
@@ -74,7 +74,7 @@ export default function MortgageCalculatorKentucky() {
               href="/#contact"
               className="inline-block bg-primary-green hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 

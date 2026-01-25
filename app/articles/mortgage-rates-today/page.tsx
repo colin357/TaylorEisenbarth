@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mortgage Rates Today - Current Home Loan Rates | Daniel Fowler",
-  description: "Check today's mortgage rates and find the best home loan options. Get expert guidance from Daniel Fowler at Fairway Independent Mortgage on current rates and trends.",
+  title: "Mortgage Rates Today - Current Home Loan Rates | Taylor Eisenbarth",
+  description: "Check today's mortgage rates and find the best home loan options. Get expert guidance from Taylor Eisenbarth at Fairway Independent Mortgage on current rates and trends.",
   keywords: "mortgage rates today, current mortgage rates, home loan rates, today's rates, mortgage interest rates, refinance rates",
 };
 
@@ -23,7 +23,7 @@ export default function MortgageRatesToday() {
             Mortgage Rates Today: What You Need to Know
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
-            <span>By Daniel Fowler</span>
+            <span>By Taylor Eisenbarth</span>
             <span>•</span>
             <span>Updated Daily</span>
           </div>
@@ -48,7 +48,7 @@ export default function MortgageRatesToday() {
               href="/#contact"
               className="inline-block bg-primary-green hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-lg transition"
             >
-              Contact Daniel Today
+              Contact Taylor Today
             </Link>
           </div>
 
