@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-400 mt-2">That speak for themselves</p>
             </div>
             <div className="text-center group">
-              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">4.91</div>
+              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">5</div>
               <div className="text-gray-400 text-lg mb-2">Average Review</div>
               <div className="flex justify-center">
                 {[...Array(5)].map((_, i) => (
@@ -123,11 +123,11 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center group">
-              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">167</div>
+              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">150</div>
               <div className="text-gray-400 text-lg">Happy Clients</div>
             </div>
             <div className="text-center group">
-              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">63</div>
+              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">65</div>
               <div className="text-gray-400 text-lg">Loans This Year</div>
             </div>
           </div>
