@@ -25,7 +25,7 @@ export default function StickyContact() {
       }`}
     >
       <a
-        href="tel:+19184029630"
+        href="tel:+13073317130"
         className="group flex items-center gap-3 bg-gradient-to-r from-primary-green to-emerald-600 hover:from-primary-green-dark hover:to-emerald-700 text-white font-bold px-6 py-4 rounded-full shadow-2xl hover:shadow-3xl transition-all transform hover:scale-105"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
