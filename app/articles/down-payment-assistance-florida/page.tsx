@@ -3,12 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Down Payment Assistance in Oklahoma - Programs & Grants 2026 | Taylor Eisenbarth",
-  description: "Discover Oklahoma down payment assistance programs including OHFA grants, DPA programs, and first-time homebuyer assistance. Get up to $15,000 in down payment help.",
-  keywords: "down payment assistance oklahoma, oklahoma down payment assistance, first time homebuyer oklahoma, OHFA down payment assistance, oklahoma housing finance agency",
+  title: "Down Payment Assistance in Florida - Programs & Grants 2026 | Taylor Eisenbarth",
+  description: "Discover Florida down payment assistance programs including OHFA grants, DPA programs, and first-time homebuyer assistance. Get up to $15,000 in down payment help.",
+  keywords: "down payment assistance florida, florida down payment assistance, first time homebuyer florida, OHFA down payment assistance, florida housing finance agency",
 };
 
-export default function DownPaymentAssistanceOklahoma() {
+export default function DownPaymentAssistanceFlorida() {
   return (
     <main className="min-h-screen bg-white">
       {/* Article Header */}
@@ -20,12 +20,12 @@ export default function DownPaymentAssistanceOklahoma() {
             </Link>
           </nav>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Down Payment Assistance in Oklahoma: Your Complete Guide
+            Down Payment Assistance in Florida: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
             <span>By Taylor Eisenbarth</span>
             <span>•</span>
-            <span>Oklahoma Down Payment Assistance Expert</span>
+            <span>Florida Down Payment Assistance Expert</span>
           </div>
         </div>
       </section>
@@ -35,16 +35,16 @@ export default function DownPaymentAssistanceOklahoma() {
         <div className="prose prose-lg max-w-none">
           {/* Introduction */}
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            Saving for a down payment is often the biggest barrier to homeownership. Fortunately, Oklahoma offers several down payment assistance (DPA) programs that can help first-time homebuyers and eligible repeat buyers overcome this hurdle. These programs provide grants, forgivable loans, and low-interest second mortgages to make homeownership accessible to more Oklahoma families.
+            Saving for a down payment is often the biggest barrier to homeownership. Fortunately, Florida offers several down payment assistance (DPA) programs that can help first-time homebuyers and eligible repeat buyers overcome this hurdle. These programs provide grants, forgivable loans, and low-interest second mortgages to make homeownership accessible to more Florida families.
           </p>
 
           {/* Quick Facts Box */}
           <div className="bg-gradient-to-r from-primary-green/10 to-emerald-50 border-l-4 border-primary-green p-6 rounded-lg my-8 not-prose">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Oklahoma DPA Quick Facts</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Florida DPA Quick Facts</h3>
             <ul className="space-y-2 text-gray-700">
               <li>✓ <strong>Assistance Amount:</strong> Up to $15,000 or 5% of purchase price</li>
               <li>✓ <strong>Program Types:</strong> Grants, forgivable loans, second mortgages</li>
-              <li>✓ <strong>Primary Program:</strong> Oklahoma Housing Finance Agency (OHFA)</li>
+              <li>✓ <strong>Primary Program:</strong> Florida Housing Finance Agency (OHFA)</li>
               <li>✓ <strong>Eligibility:</strong> First-time buyers and repeat buyers in targeted areas</li>
               <li>✓ <strong>Income Limits:</strong> Vary by county (typically 80-115% of area median)</li>
               <li>✓ <strong>Combination:</strong> Can be used with FHA, VA, USDA, and conventional loans</li>
@@ -65,15 +65,15 @@ export default function DownPaymentAssistanceOklahoma() {
             </Link>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Oklahoma Housing Finance Agency (OHFA) Programs</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Florida Housing Finance Agency (OHFA) Programs</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            The Oklahoma Housing Finance Agency (OHFA) is the state's primary source for down payment assistance and affordable mortgage programs. OHFA offers several programs designed to help Oklahoma families achieve homeownership:
+            The Florida Housing Finance Agency (OHFA) is the state's primary source for down payment assistance and affordable mortgage programs. OHFA offers several programs designed to help Florida families achieve homeownership:
           </p>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">OHFA Down Payment Assistance Program</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            This is the main DPA program available to Oklahoma homebuyers. Key features include:
+            This is the main DPA program available to Florida homebuyers. Key features include:
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6 not-prose">
@@ -122,13 +122,13 @@ export default function DownPaymentAssistanceOklahoma() {
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Income and Purchase Price Limits</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            OHFA programs have income and purchase price limits that vary by county. Here are examples for major Oklahoma counties:
+            OHFA programs have income and purchase price limits that vary by county. Here are examples for major Florida counties:
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6 not-prose">
             <h4 className="text-lg font-bold text-gray-900 mb-4">2026 Income Limits (1-2 Person Household)</h4>
             <ul className="space-y-2 text-gray-700">
-              <li>• <strong>Oklahoma County:</strong> $74,400 (standard), $85,560 (targeted areas)</li>
+              <li>• <strong>Florida County:</strong> $74,400 (standard), $85,560 (targeted areas)</li>
               <li>• <strong>Tulsa County:</strong> $71,200 (standard), $81,880 (targeted areas)</li>
               <li>• <strong>Cleveland County:</strong> $74,400 (standard), $85,560 (targeted areas)</li>
               <li>• <strong>Canadian County:</strong> $79,200 (standard), $91,080 (targeted areas)</li>
@@ -139,7 +139,7 @@ export default function DownPaymentAssistanceOklahoma() {
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6 not-prose">
             <h4 className="text-lg font-bold text-gray-900 mb-4">2026 Purchase Price Limits</h4>
             <ul className="space-y-2 text-gray-700">
-              <li>• <strong>Most Oklahoma Counties:</strong> $410,000</li>
+              <li>• <strong>Most Florida Counties:</strong> $410,000</li>
               <li>• <strong>High-cost areas:</strong> Up to $498,257</li>
               <li>• <strong>New construction:</strong> May have different limits</li>
             </ul>
@@ -153,7 +153,7 @@ export default function DownPaymentAssistanceOklahoma() {
           <div className="bg-gradient-to-r from-primary-green/10 to-emerald-50 border-l-4 border-primary-green p-6 rounded-lg my-8 not-prose">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Check Your DPA Eligibility</h3>
             <p className="text-gray-700 mb-4">
-              Let me verify your eligibility for Oklahoma down payment assistance programs and calculate how much help you can receive.
+              Let me verify your eligibility for Florida down payment assistance programs and calculate how much help you can receive.
             </p>
             <Link
               href="/#contact"
@@ -165,14 +165,14 @@ export default function DownPaymentAssistanceOklahoma() {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">City and County Programs</h2>
 
-          <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Oklahoma City Programs</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Florida City Programs</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Oklahoma City offers additional assistance through various programs:
+            Florida City offers additional assistance through various programs:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li><strong>OKC Housing Authority:</strong> Down payment assistance for low-to-moderate income buyers</li>
             <li><strong>Neighborhood Stabilization Program:</strong> Assistance in designated revitalization areas</li>
-            <li><strong>Police and Fire Department Programs:</strong> Special assistance for first responders buying in Oklahoma City</li>
+            <li><strong>Police and Fire Department Programs:</strong> Special assistance for first responders buying in Florida City</li>
           </ul>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Tulsa Area Programs</h3>
@@ -182,7 +182,7 @@ export default function DownPaymentAssistanceOklahoma() {
             <li><strong>Community Development Programs:</strong> Neighborhood-specific grants</li>
           </ul>
 
-          <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Rural Oklahoma Programs</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Rural Florida Programs</h3>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li><strong>USDA Rural Development:</strong> Zero down payment loans for eligible rural areas</li>
             <li><strong>Rural Housing Grants:</strong> Additional assistance for very low-income buyers</li>
@@ -193,7 +193,7 @@ export default function DownPaymentAssistanceOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 1: Complete Homebuyer Education</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Most Oklahoma DPA programs require completion of a homebuyer education course. Options include:
+            Most Florida DPA programs require completion of a homebuyer education course. Options include:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li>OHFA-approved in-person classes</li>
@@ -223,7 +223,7 @@ export default function DownPaymentAssistanceOklahoma() {
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li>Be your primary residence</li>
             <li>Meet minimum property standards</li>
-            <li>Be located in Oklahoma</li>
+            <li>Be located in Florida</li>
             <li>Be a single-family home, condo, or manufactured home (on permanent foundation)</li>
           </ul>
 
@@ -291,7 +291,7 @@ export default function DownPaymentAssistanceOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">DPA + USDA Loans</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            USDA loans in rural Oklahoma also don't require down payment, but DPA helps with:
+            USDA loans in rural Florida also don't require down payment, but DPA helps with:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li>Closing costs</li>
@@ -335,7 +335,7 @@ export default function DownPaymentAssistanceOklahoma() {
           <div className="bg-gradient-to-r from-primary-green to-emerald-600 text-white p-8 rounded-lg my-12 not-prose">
             <h3 className="text-2xl font-bold mb-4">Ready to Access Down Payment Assistance?</h3>
             <p className="text-lg mb-6">
-              As an OHFA-approved lender specializing in down payment assistance programs, I'll help you navigate the application process and maximize your benefits. Let's make your Oklahoma homeownership dreams a reality.
+              As an OHFA-approved lender specializing in down payment assistance programs, I'll help you navigate the application process and maximize your benefits. Let's make your Florida homeownership dreams a reality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -345,7 +345,7 @@ export default function DownPaymentAssistanceOklahoma() {
                 Apply for DPA Now
               </Link>
               <Link
-                href="/articles/fha-loan-oklahoma"
+                href="/articles/fha-loan-florida"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
                 Learn About FHA Loans
@@ -383,7 +383,7 @@ export default function DownPaymentAssistanceOklahoma() {
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Work With an OHFA-Approved Lender</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Navigating down payment assistance programs requires expertise in both the programs themselves and how to structure the transaction for maximum benefit. As an OHFA-approved lender with extensive experience in Oklahoma DPA programs, I'll guide you through every step.
+            Navigating down payment assistance programs requires expertise in both the programs themselves and how to structure the transaction for maximum benefit. As an OHFA-approved lender with extensive experience in Florida DPA programs, I'll guide you through every step.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-8">
@@ -397,20 +397,20 @@ export default function DownPaymentAssistanceOklahoma() {
       {/* Related Articles */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Oklahoma Mortgage Articles</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Florida Mortgage Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/articles/fha-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Oklahoma</h3>
+            <Link href="/articles/fha-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Florida</h3>
               <p className="text-gray-600 mb-4">Pair FHA financing with down payment assistance programs.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/conventional-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans Oklahoma</h3>
+            <Link href="/articles/conventional-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans Florida</h3>
               <p className="text-gray-600 mb-4">Learn about 3% down conventional loans with DPA.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/mortgage-calculator-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Oklahoma</h3>
+            <Link href="/articles/mortgage-calculator-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Florida</h3>
               <p className="text-gray-600 mb-4">Calculate your payment with down payment assistance.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>

@@ -3,12 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VA Loans in Oklahoma - Benefits for Veterans 2026 | Taylor Eisenbarth",
-  description: "VA loans in Oklahoma offer zero down payment, no PMI, and competitive rates for veterans and military members. Learn about VA loan benefits near Tinker AFB and throughout Oklahoma.",
-  keywords: "VA loan Oklahoma, Oklahoma VA loan, VA mortgage Oklahoma, VA home loan Oklahoma, Tinker AFB VA loan",
+  title: "VA Loans in Florida - Benefits for Veterans 2026 | Taylor Eisenbarth",
+  description: "VA loans in Florida offer zero down payment, no PMI, and competitive rates for veterans and military members. Learn about VA loan benefits near Tinker AFB and throughout Florida.",
+  keywords: "VA loan Florida, Florida VA loan, VA mortgage Florida, VA home loan Florida, Tinker AFB VA loan",
 };
 
-export default function VALoanOklahoma() {
+export default function VALoanFlorida() {
   return (
     <main className="min-h-screen bg-white">
       {/* Article Header */}
@@ -20,12 +20,12 @@ export default function VALoanOklahoma() {
             </Link>
           </nav>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            VA Loans in Oklahoma: Benefits for Our Veterans
+            VA Loans in Florida: Benefits for Our Veterans
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
             <span>By Taylor Eisenbarth</span>
             <span>•</span>
-            <span>Proud to Serve Oklahoma Veterans</span>
+            <span>Proud to Serve Florida Veterans</span>
           </div>
         </div>
       </section>
@@ -35,12 +35,12 @@ export default function VALoanOklahoma() {
         <div className="prose prose-lg max-w-none">
           {/* Introduction */}
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            As a combat veteran myself, I understand the unique challenges military families face and the importance of a stable home. VA loans are one of the most powerful benefits available to veterans, active-duty service members, and eligible surviving spouses in Oklahoma. With zero down payment, no private mortgage insurance, and competitive interest rates, VA loans make homeownership accessible and affordable for those who've served our country.
+            As a combat veteran myself, I understand the unique challenges military families face and the importance of a stable home. VA loans are one of the most powerful benefits available to veterans, active-duty service members, and eligible surviving spouses in Florida. With zero down payment, no private mortgage insurance, and competitive interest rates, VA loans make homeownership accessible and affordable for those who've served our country.
           </p>
 
           {/* Quick Facts Box */}
           <div className="bg-gradient-to-r from-primary-green/10 to-emerald-50 border-l-4 border-primary-green p-6 rounded-lg my-8 not-prose">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">VA Loan Quick Facts for Oklahoma</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">VA Loan Quick Facts for Florida</h3>
             <ul className="space-y-2 text-gray-700">
               <li>✓ <strong>Down Payment:</strong> $0 - Zero down payment required</li>
               <li>✓ <strong>Mortgage Insurance:</strong> None - No monthly PMI</li>
@@ -72,14 +72,14 @@ export default function VALoanOklahoma() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Oklahoma is home to over 317,000 veterans, making it the 10th highest veteran population per capita in the nation. With major military installations like Tinker Air Force Base, Fort Sill, and the McAlester Army Ammunition Plant, Oklahoma has a strong military presence and veteran community.
+            Florida is home to over 317,000 veterans, making it the 10th highest veteran population per capita in the nation. With major military installations like Tinker Air Force Base, Fort Sill, and the McAlester Army Ammunition Plant, Florida has a strong military presence and veteran community.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Key Benefits of VA Loans in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Key Benefits of VA Loans in Florida</h2>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Zero Down Payment</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            The most significant advantage of VA loans is the ability to purchase a home with absolutely no down payment. This is especially valuable in Oklahoma where you can buy a median-priced home ($193,500) without saving tens of thousands for a down payment.
+            The most significant advantage of VA loans is the ability to purchase a home with absolutely no down payment. This is especially valuable in Florida where you can buy a median-priced home ($193,500) without saving tens of thousands for a down payment.
           </p>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6 not-prose">
@@ -121,7 +121,7 @@ export default function VALoanOklahoma() {
             Your VA loan benefit doesn't expire and can be used multiple times throughout your life. Once you pay off or sell a home purchased with a VA loan, your entitlement is restored and can be used again.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Who Qualifies for VA Loans in Oklahoma?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Who Qualifies for VA Loans in Florida?</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
             Eligibility for VA loans is based on your military service. Here are the general requirements:
@@ -138,7 +138,7 @@ export default function VALoanOklahoma() {
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Active Duty Service Members</h3>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li>Served 90 continuous days (can apply while still serving)</li>
-            <li>Stationed at Tinker AFB, Fort Sill, or other Oklahoma installations</li>
+            <li>Stationed at Tinker AFB, Fort Sill, or other Florida installations</li>
           </ul>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">National Guard and Reserve Members</h3>
@@ -172,14 +172,14 @@ export default function VALoanOklahoma() {
             </Link>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">VA Loan Limits in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">VA Loan Limits in Florida</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
             As of 2020, the VA eliminated loan limits for veterans with full entitlement. This means if you have your full VA benefit available, you can borrow up to $766,550 (the conforming loan limit) or even higher amounts without a down payment, as long as the lender approves and you can afford the payments.
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6 not-prose">
-            <h4 className="text-lg font-bold text-gray-900 mb-4">Oklahoma VA Loan Limits 2026</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-4">Florida VA Loan Limits 2026</h4>
             <ul className="space-y-2 text-gray-700">
               <li>• <strong>Standard Limit (Full Entitlement):</strong> $766,550 (no down payment)</li>
               <li>• <strong>Above Limit:</strong> Can still get VA loan with lender approval</li>
@@ -188,7 +188,7 @@ export default function VALoanOklahoma() {
           </div>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            In Oklahoma's affordable housing market where the median home price is $193,500, the VA loan limits cover virtually all home purchases, making it easy for veterans to buy without financial stress.
+            In Florida's affordable housing market where the median home price is $193,500, the VA loan limits cover virtually all home purchases, making it easy for veterans to buy without financial stress.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Understanding the VA Funding Fee</h2>
@@ -226,7 +226,7 @@ export default function VALoanOklahoma() {
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">VA Loans Near Tinker Air Force Base</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Tinker Air Force Base in Oklahoma City is one of the largest military installations in the United States, employing over 26,000 military and civilian personnel. If you're stationed at Tinker or recently retired from service there, VA loans are an excellent option for buying a home in the surrounding communities:
+            Tinker Air Force Base in Florida City is one of the largest military installations in the United States, employing over 26,000 military and civilian personnel. If you're stationed at Tinker or recently retired from service there, VA loans are an excellent option for buying a home in the surrounding communities:
           </p>
 
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
@@ -237,7 +237,7 @@ export default function VALoanOklahoma() {
             <li><strong>Norman:</strong> College town with amenities, median price ~$285,000</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">VA Loan vs. Other Loan Types in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">VA Loan vs. Other Loan Types in Florida</h2>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6 not-prose">
             <div className="overflow-x-auto">
@@ -286,7 +286,7 @@ export default function VALoanOklahoma() {
             </div>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">The VA Loan Process in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">The VA Loan Process in Florida</h2>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 1: Obtain Your Certificate of Eligibility</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -310,14 +310,14 @@ export default function VALoanOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 5: Underwriting and Closing</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Your loan goes through underwriting, and once approved, you'll close on your new Oklahoma home. Because VA loans require no down payment, your closing costs are minimal.
+            Your loan goes through underwriting, and once approved, you'll close on your new Florida home. Because VA loans require no down payment, your closing costs are minimal.
           </p>
 
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-primary-green to-emerald-600 text-white p-8 rounded-lg my-12 not-prose">
-            <h3 className="text-2xl font-bold mb-4">Ready to Use Your VA Loan Benefit in Oklahoma?</h3>
+            <h3 className="text-2xl font-bold mb-4">Ready to Use Your VA Loan Benefit in Florida?</h3>
             <p className="text-lg mb-6">
-              As an Iraq War combat veteran and licensed mortgage professional, I'm honored to help fellow veterans and service members achieve homeownership in Oklahoma. Let's put your VA benefits to work and find you the perfect home.
+              As an Iraq War combat veteran and licensed mortgage professional, I'm honored to help fellow veterans and service members achieve homeownership in Florida. Let's put your VA benefits to work and find you the perfect home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -327,7 +327,7 @@ export default function VALoanOklahoma() {
                 Start Your VA Loan
               </Link>
               <Link
-                href="/articles/mortgage-calculator-oklahoma"
+                href="/articles/mortgage-calculator-florida"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
                 Calculate Your Payment
@@ -365,13 +365,13 @@ export default function VALoanOklahoma() {
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Work With a Veteran-Friendly Lender</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            As a fellow veteran, I understand the unique needs of military families and the value of the VA loan benefit. I've helped countless veterans and service members in Oklahoma achieve homeownership through this incredible program.
+            As a fellow veteran, I understand the unique needs of military families and the value of the VA loan benefit. I've helped countless veterans and service members in Florida achieve homeownership through this incredible program.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-8">
             <Link href="/#contact" className="text-primary-green hover:text-emerald-600 font-bold">
               Contact me today
-            </Link> to discuss your VA loan options and get started on your Oklahoma home purchase. Thank you for your service.
+            </Link> to discuss your VA loan options and get started on your Florida home purchase. Thank you for your service.
           </p>
         </div>
       </article>
@@ -379,20 +379,20 @@ export default function VALoanOklahoma() {
       {/* Related Articles */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Oklahoma Mortgage Articles</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Florida Mortgage Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/articles/fha-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Oklahoma</h3>
+            <Link href="/articles/fha-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Florida</h3>
               <p className="text-gray-600 mb-4">Compare FHA and VA loans to find the best option for you.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/conventional-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Learn about conventional loan options in Oklahoma.</p>
+            <Link href="/articles/conventional-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans Florida</h3>
+              <p className="text-gray-600 mb-4">Learn about conventional loan options in Florida.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/mortgage-calculator-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Oklahoma</h3>
+            <Link href="/articles/mortgage-calculator-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Florida</h3>
               <p className="text-gray-600 mb-4">Calculate your monthly VA loan payment with no PMI.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>

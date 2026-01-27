@@ -3,12 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HELOC in Oklahoma - Home Equity Lines of Credit 2026 | Taylor Eisenbarth",
-  description: "Learn about HELOCs in Oklahoma. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits. Get expert HELOC guidance from Taylor Eisenbarth.",
-  keywords: "HELOC Oklahoma, Oklahoma HELOC, home equity line of credit oklahoma, oklahoma home equity loan, HELOC rates oklahoma",
+  title: "HELOC in Florida - Home Equity Lines of Credit 2026 | Taylor Eisenbarth",
+  description: "Learn about HELOCs in Florida. Access your home equity with flexible credit lines, competitive rates, and potential tax benefits. Get expert HELOC guidance from Taylor Eisenbarth.",
+  keywords: "HELOC Florida, Florida HELOC, home equity line of credit florida, florida home equity loan, HELOC rates florida",
 };
 
-export default function HELOCOklahoma() {
+export default function HELOCFlorida() {
   return (
     <main className="min-h-screen bg-white">
       {/* Article Header */}
@@ -20,12 +20,12 @@ export default function HELOCOklahoma() {
             </Link>
           </nav>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            HELOC in Oklahoma: Unlock Your Home's Equity
+            HELOC in Florida: Unlock Your Home's Equity
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
             <span>By Taylor Eisenbarth</span>
             <span>•</span>
-            <span>Oklahoma HELOC Specialist</span>
+            <span>Florida HELOC Specialist</span>
           </div>
         </div>
       </section>
@@ -35,12 +35,12 @@ export default function HELOCOklahoma() {
         <div className="prose prose-lg max-w-none">
           {/* Introduction */}
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            A Home Equity Line of Credit (HELOC) allows Oklahoma homeowners to tap into their home's equity as needed, providing flexible access to funds for home improvements, debt consolidation, education expenses, or emergency needs. With competitive rates and potential tax benefits, HELOCs are a smart financial tool for homeowners with substantial equity built up in their Oklahoma properties.
+            A Home Equity Line of Credit (HELOC) allows Florida homeowners to tap into their home's equity as needed, providing flexible access to funds for home improvements, debt consolidation, education expenses, or emergency needs. With competitive rates and potential tax benefits, HELOCs are a smart financial tool for homeowners with substantial equity built up in their Florida properties.
           </p>
 
           {/* Quick Facts Box */}
           <div className="bg-gradient-to-r from-primary-green/10 to-emerald-50 border-l-4 border-primary-green p-6 rounded-lg my-8 not-prose">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Oklahoma HELOC Quick Facts</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Florida HELOC Quick Facts</h3>
             <ul className="space-y-2 text-gray-700">
               <li>✓ <strong>Access Amount:</strong> Up to 80-90% of home value minus mortgage balance</li>
               <li>✓ <strong>Interest Rates:</strong> Variable rates tied to Prime Rate (currently lower than credit cards)</li>
@@ -126,7 +126,7 @@ export default function HELOCOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Your Home's Current Value</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Lenders will order an appraisal or use an automated valuation model (AVM) to determine your home's current market value. In Oklahoma's appreciating market, many homeowners are surprised by how much equity they've built.
+            Lenders will order an appraisal or use an automated valuation model (AVM) to determine your home's current market value. In Florida's appreciating market, many homeowners are surprised by how much equity they've built.
           </p>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Your Mortgage Balance</h3>
@@ -154,11 +154,11 @@ export default function HELOCOklahoma() {
             </ul>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">HELOC Qualification Requirements in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">HELOC Qualification Requirements in Florida</h2>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Credit Score</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Most Oklahoma lenders require:
+            Most Florida lenders require:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li><strong>Minimum 640:</strong> Can qualify but may face higher rates</li>
@@ -210,7 +210,7 @@ export default function HELOCOklahoma() {
             </Link>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">HELOC Interest Rates in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">HELOC Interest Rates in Florida</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
             HELOC rates are variable and typically tied to the Prime Rate plus a margin. As of early 2026:
@@ -271,7 +271,7 @@ export default function HELOCOklahoma() {
             </ul>
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Common Uses for HELOCs in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Common Uses for HELOCs in Florida</h2>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Home Improvements</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -282,7 +282,7 @@ export default function HELOCOklahoma() {
             <li>Adding square footage or second story</li>
             <li>New roof or HVAC system</li>
             <li>Pool or outdoor living spaces</li>
-            <li>Storm shelter installation (important in Oklahoma!)</li>
+            <li>Storm shelter installation (important in Florida!)</li>
           </ul>
           <p className="text-gray-700 leading-relaxed mb-6">
             Bonus: Interest paid on HELOCs used for substantial home improvements may be tax-deductible.
@@ -321,7 +321,7 @@ export default function HELOCOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Business Expenses</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Self-employed Oklahomans often use HELOCs for:
+            Self-employed Floridans often use HELOCs for:
           </p>
           <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
             <li>Business startup costs</li>
@@ -381,7 +381,7 @@ export default function HELOCOklahoma() {
 
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-primary-green to-emerald-600 text-white p-8 rounded-lg my-12 not-prose">
-            <h3 className="text-2xl font-bold mb-4">Ready to Access Your Oklahoma Home's Equity?</h3>
+            <h3 className="text-2xl font-bold mb-4">Ready to Access Your Florida Home's Equity?</h3>
             <p className="text-lg mb-6">
               Get instant HELOC approval in just 5 minutes with our AI-powered system. No hard credit pull, no commitment required. See how much you qualify for and start accessing your home equity today.
             </p>
@@ -415,7 +415,7 @@ export default function HELOCOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What happens to my HELOC if home values drop?</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Lenders can freeze or reduce your credit line if your home value declines significantly. This happened during the 2008 financial crisis but is rare in stable markets like Oklahoma.
+            Lenders can freeze or reduce your credit line if your home value declines significantly. This happened during the 2008 financial crisis but is rare in stable markets like Florida.
           </p>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Can I convert my HELOC to a fixed-rate loan?</h3>
@@ -428,10 +428,10 @@ export default function HELOCOklahoma() {
             Yes, if you use the funds for substantial home improvements. Interest used for other purposes (debt consolidation, etc.) is not tax-deductible under current tax law. Consult a tax professional for your specific situation.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Work With an Oklahoma HELOC Expert</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Work With an Florida HELOC Expert</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            HELOCs are powerful financial tools when used responsibly. As a licensed mortgage professional specializing in home equity lending in Oklahoma, I'll help you understand your options, calculate your borrowing capacity, and structure a HELOC that meets your financial goals.
+            HELOCs are powerful financial tools when used responsibly. As a licensed mortgage professional specializing in home equity lending in Florida, I'll help you understand your options, calculate your borrowing capacity, and structure a HELOC that meets your financial goals.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-8">
@@ -445,20 +445,20 @@ export default function HELOCOklahoma() {
       {/* Related Articles */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Oklahoma Mortgage Articles</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Florida Mortgage Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/articles/mortgage-calculator-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Oklahoma</h3>
+            <Link href="/articles/mortgage-calculator-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Florida</h3>
               <p className="text-gray-600 mb-4">Calculate potential HELOC payments and borrowing capacity.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/conventional-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans Oklahoma</h3>
+            <Link href="/articles/conventional-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans Florida</h3>
               <p className="text-gray-600 mb-4">Learn about refinancing options to access equity.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/fha-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Oklahoma</h3>
+            <Link href="/articles/fha-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Florida</h3>
               <p className="text-gray-600 mb-4">Compare HELOC to cash-out refinancing options.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>

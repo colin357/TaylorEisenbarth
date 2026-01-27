@@ -191,7 +191,7 @@ export default function Home() {
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Based in <span className="font-semibold">Oklahoma</span>, Taylor works with a wide range of borrowers and prides himself on fast communication, honest advice, and solutions that make sense for real life. His goal is not just to get loans approved, but to build long-term relationships built on trust and results.
+                  Based in <span className="font-semibold">Florida</span>, Taylor works with a wide range of borrowers and prides himself on fast communication, honest advice, and solutions that make sense for real life. His goal is not just to get loans approved, but to build long-term relationships built on trust and results.
                 </p>
 
                 <div className="mt-8 pt-6 border-t border-gray-200">

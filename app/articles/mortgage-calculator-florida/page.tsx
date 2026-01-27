@@ -4,12 +4,12 @@ import type { Metadata } from "next";
 import MortgageCalculator from "./MortgageCalculator";
 
 export const metadata: Metadata = {
-  title: "Mortgage Calculator Oklahoma - Calculate Your Monthly Payment | Taylor Eisenbarth",
-  description: "Use our Oklahoma mortgage calculator to estimate your monthly payment. Get accurate calculations including property taxes, insurance, and HOA fees for Oklahoma homes.",
-  keywords: "mortgage calculator oklahoma, oklahoma mortgage calculator, home loan calculator oklahoma, oklahoma home payment calculator, mortgage payment calculator oklahoma",
+  title: "Mortgage Calculator Florida - Calculate Your Monthly Payment | Taylor Eisenbarth",
+  description: "Use our Florida mortgage calculator to estimate your monthly payment. Get accurate calculations including property taxes, insurance, and HOA fees for Florida homes.",
+  keywords: "mortgage calculator florida, florida mortgage calculator, home loan calculator florida, florida home payment calculator, mortgage payment calculator florida",
 };
 
-export default function MortgageCalculatorOklahoma() {
+export default function MortgageCalculatorFlorida() {
   return (
     <main className="min-h-screen bg-white">
       {/* Article Header */}
@@ -21,12 +21,12 @@ export default function MortgageCalculatorOklahoma() {
             </Link>
           </nav>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Mortgage Calculator Oklahoma: Estimate Your Monthly Payment
+            Mortgage Calculator Florida: Estimate Your Monthly Payment
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
             <span>By Taylor Eisenbarth</span>
             <span>•</span>
-            <span>Licensed in Oklahoma</span>
+            <span>Licensed in Florida</span>
           </div>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function MortgageCalculatorOklahoma() {
         <div className="prose prose-lg max-w-none">
           {/* Introduction */}
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            Want a clearer picture of your Oklahoma mortgage payment? This quick guide breaks down the main costs, shows a few local price examples, and highlights the levers that change your total. It’s designed to be scannable so you can get answers fast.
+            Want a clearer picture of your Florida mortgage payment? This quick guide breaks down the main costs, shows a few local price examples, and highlights the levers that change your total. It’s designed to be scannable so you can get answers fast.
           </p>
 
           <div className="grid gap-6 md:grid-cols-3 my-10 not-prose">
@@ -46,7 +46,7 @@ export default function MortgageCalculatorOklahoma() {
                 description: "Monthly costs usually include principal, interest, taxes, insurance, and sometimes PMI/HOA.",
               },
               {
-                title: "Oklahoma advantage",
+                title: "Florida advantage",
                 description: "Home prices and taxes are typically lower than many states, helping affordability.",
               },
               {
@@ -67,7 +67,7 @@ export default function MortgageCalculatorOklahoma() {
           <div className="bg-gradient-to-r from-primary-green/10 to-emerald-50 border-l-4 border-primary-green p-6 rounded-lg my-8 not-prose">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Get Your Personalized Payment Quote</h3>
             <p className="text-gray-700 mb-4">
-              Ready to see exactly what your monthly payment would be? Contact me for a detailed breakdown based on current Oklahoma rates and your specific situation.
+              Ready to see exactly what your monthly payment would be? Contact me for a detailed breakdown based on current Florida rates and your specific situation.
             </p>
             <Link
               href="/#contact"
@@ -91,7 +91,7 @@ export default function MortgageCalculatorOklahoma() {
               },
               {
                 title: "Property Taxes",
-                description: "Oklahoma’s effective rate averages about 0.87%, with county variations.",
+                description: "Florida’s effective rate averages about 0.87%, with county variations.",
               },
               {
                 title: "Homeowners Insurance",
@@ -109,10 +109,10 @@ export default function MortgageCalculatorOklahoma() {
             ))}
           </div>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Oklahoma Home Price Overview</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Florida Home Price Overview</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Oklahoma stays affordable compared to many states. Here’s a quick snapshot:
+            Florida stays affordable compared to many states. Here’s a quick snapshot:
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6 not-prose">
@@ -123,7 +123,7 @@ export default function MortgageCalculatorOklahoma() {
                 <p className="text-xl font-semibold text-gray-900">$193,500</p>
               </div>
               <div className="rounded-lg bg-white p-4 shadow-sm">
-                <p className="text-sm text-gray-500">Oklahoma City</p>
+                <p className="text-sm text-gray-500">Florida City</p>
                 <p className="text-xl font-semibold text-gray-900">$225,000</p>
               </div>
               <div className="rounded-lg bg-white p-4 shadow-sm">
@@ -164,9 +164,9 @@ export default function MortgageCalculatorOklahoma() {
 
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-primary-green to-emerald-600 text-white p-8 rounded-lg my-12 not-prose">
-            <h3 className="text-2xl font-bold mb-4">Let's Calculate Your Exact Oklahoma Mortgage Payment</h3>
+            <h3 className="text-2xl font-bold mb-4">Let's Calculate Your Exact Florida Mortgage Payment</h3>
             <p className="text-lg mb-6">
-              As a licensed mortgage professional serving Oklahoma, I'll provide you with accurate payment calculations based on current rates, your credit profile, and the specific home you're considering. No guesswork—just real numbers you can count on.
+              As a licensed mortgage professional serving Florida, I'll provide you with accurate payment calculations based on current rates, your credit profile, and the specific home you're considering. No guesswork—just real numbers you can count on.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -176,7 +176,7 @@ export default function MortgageCalculatorOklahoma() {
                 Get Your Payment Quote
               </Link>
               <Link
-                href="/articles/fha-loan-oklahoma"
+                href="/articles/fha-loan-florida"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
                 Learn About FHA Loans
@@ -219,21 +219,21 @@ export default function MortgageCalculatorOklahoma() {
       {/* Related Articles */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Oklahoma Mortgage Articles</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Florida Mortgage Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/articles/fha-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Learn about FHA loan requirements and benefits for Oklahoma homebuyers.</p>
+            <Link href="/articles/fha-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Florida</h3>
+              <p className="text-gray-600 mb-4">Learn about FHA loan requirements and benefits for Florida homebuyers.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/va-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans in Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Explore VA loan benefits for veterans and military members in Oklahoma.</p>
+            <Link href="/articles/va-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans in Florida</h3>
+              <p className="text-gray-600 mb-4">Explore VA loan benefits for veterans and military members in Florida.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/down-payment-assistance-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Down Payment Assistance Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Discover programs that help Oklahoma first-time homebuyers with down payments.</p>
+            <Link href="/articles/down-payment-assistance-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Down Payment Assistance Florida</h3>
+              <p className="text-gray-600 mb-4">Discover programs that help Florida first-time homebuyers with down payments.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
           </div>

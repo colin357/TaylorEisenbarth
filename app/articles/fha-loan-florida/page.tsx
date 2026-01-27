@@ -3,12 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FHA Loans in Oklahoma - Requirements & Benefits 2026 | Taylor Eisenbarth",
-  description: "Learn about FHA loans in Oklahoma. Low down payment (3.5%), flexible credit requirements, and competitive rates for Oklahoma homebuyers. Get expert guidance from Taylor Eisenbarth.",
-  keywords: "FHA loan Oklahoma, Oklahoma FHA loan, FHA mortgage Oklahoma, FHA loan requirements Oklahoma, Oklahoma FHA loans",
+  title: "FHA Loans in Florida - Requirements & Benefits 2026 | Taylor Eisenbarth",
+  description: "Learn about FHA loans in Florida. Low down payment (3.5%), flexible credit requirements, and competitive rates for Florida homebuyers. Get expert guidance from Taylor Eisenbarth.",
+  keywords: "FHA loan Florida, Florida FHA loan, FHA mortgage Florida, FHA loan requirements Florida, Florida FHA loans",
 };
 
-export default function FHALoanOklahoma() {
+export default function FHALoanFlorida() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Enhanced Hero Section */}
@@ -39,11 +39,11 @@ export default function FHALoanOklahoma() {
               </div>
 
               <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
-                FHA Loans in <span className="text-emerald-200">Oklahoma</span>
+                FHA Loans in <span className="text-emerald-200">Florida</span>
               </h1>
 
               <p className="text-xl text-emerald-50 mb-8 leading-relaxed">
-                Achieve homeownership with just 3.5% down. Flexible credit requirements and competitive rates designed for Oklahoma buyers.
+                Achieve homeownership with just 3.5% down. Flexible credit requirements and competitive rates designed for Florida buyers.
               </p>
 
               <div className="flex flex-wrap items-center gap-4">
@@ -90,7 +90,7 @@ export default function FHALoanOklahoma() {
       <div className="sticky top-0 z-40 bg-white/95 backdrop-blur-lg border-b border-gray-200 shadow-sm hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex items-center justify-between">
-            <div className="font-semibold text-gray-900">FHA Loans in Oklahoma</div>
+            <div className="font-semibold text-gray-900">FHA Loans in Florida</div>
             <Link
               href="/#contact"
               className="bg-primary-green hover:bg-emerald-600 text-white px-6 py-2 rounded-lg font-semibold transition text-sm"
@@ -145,7 +145,7 @@ export default function FHALoanOklahoma() {
             {/* Introduction with Lead Image */}
             <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-12 mb-8">
               <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                FHA loans are one of the most popular mortgage options for Oklahoma homebuyers, especially first-time buyers and those with less-than-perfect credit. Backed by the Federal Housing Administration, these loans offer low down payments, flexible credit requirements, and competitive interest rates that make homeownership accessible to more people.
+                FHA loans are one of the most popular mortgage options for Florida homebuyers, especially first-time buyers and those with less-than-perfect credit. Backed by the Federal Housing Administration, these loans offer low down payments, flexible credit requirements, and competitive interest rates that make homeownership accessible to more people.
               </p>
 
               {/* Key Highlights */}
@@ -237,7 +237,7 @@ export default function FHALoanOklahoma() {
 
             {/* Requirements Section with Modern Cards */}
             <div id="requirements" className="mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">FHA Loan Requirements in Oklahoma</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">FHA Loan Requirements in Florida</h2>
 
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Credit Score Card */}
@@ -301,12 +301,12 @@ export default function FHALoanOklahoma() {
 
             {/* Related Articles - Modern Grid */}
             <div className="mt-16">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Oklahoma Mortgage Articles</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Florida Mortgage Articles</h2>
               <div className="grid md:grid-cols-3 gap-6">
-                <Link href="/articles/conventional-loan-oklahoma" className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-primary-green transition-all">
+                <Link href="/articles/conventional-loan-florida" className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-primary-green transition-all">
                   <div className="h-2 bg-gradient-to-r from-primary-green to-emerald-600"></div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-green transition">Conventional Loans Oklahoma</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-green transition">Conventional Loans Florida</h3>
                     <p className="text-gray-600 mb-4">Compare conventional loans to FHA and see which is right for you.</p>
                     <span className="inline-flex items-center text-primary-green font-semibold group-hover:gap-2 transition-all">
                       Read More
@@ -317,10 +317,10 @@ export default function FHALoanOklahoma() {
                   </div>
                 </Link>
 
-                <Link href="/articles/down-payment-assistance-oklahoma" className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-blue-500 transition-all">
+                <Link href="/articles/down-payment-assistance-florida" className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-blue-500 transition-all">
                   <div className="h-2 bg-gradient-to-r from-blue-500 to-blue-600"></div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition">Down Payment Assistance Oklahoma</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition">Down Payment Assistance Florida</h3>
                     <p className="text-gray-600 mb-4">Learn about programs that can help with your FHA down payment.</p>
                     <span className="inline-flex items-center text-blue-600 font-semibold group-hover:gap-2 transition-all">
                       Read More
@@ -331,10 +331,10 @@ export default function FHALoanOklahoma() {
                   </div>
                 </Link>
 
-                <Link href="/articles/mortgage-calculator-oklahoma" className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-purple-500 transition-all">
+                <Link href="/articles/mortgage-calculator-florida" className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl hover:border-purple-500 transition-all">
                   <div className="h-2 bg-gradient-to-r from-purple-500 to-purple-600"></div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition">Mortgage Calculator Oklahoma</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition">Mortgage Calculator Florida</h3>
                     <p className="text-gray-600 mb-4">Calculate your monthly FHA loan payment including MIP.</p>
                     <span className="inline-flex items-center text-purple-600 font-semibold group-hover:gap-2 transition-all">
                       Read More
@@ -353,7 +353,7 @@ export default function FHALoanOklahoma() {
       {/* Bottom CTA Section */}
       <section className="bg-gradient-to-r from-primary-green via-emerald-600 to-emerald-700 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">Ready to Apply for an FHA Loan in Oklahoma?</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Ready to Apply for an FHA Loan in Florida?</h2>
           <p className="text-xl text-emerald-50 mb-8">
             As a licensed mortgage professional and FHA-approved lender, I'll guide you through every step of the FHA loan process.
           </p>
@@ -368,7 +368,7 @@ export default function FHALoanOklahoma() {
               </svg>
             </Link>
             <Link
-              href="/articles/mortgage-calculator-oklahoma"
+              href="/articles/mortgage-calculator-florida"
               className="inline-flex items-center justify-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-xl transition border-2 border-white/20"
             >
               Calculate Your Payment

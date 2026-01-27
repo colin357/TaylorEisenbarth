@@ -4,8 +4,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Taylor Eisenbarth - Fairway Independent Mortgage | Home Loans in Oklahoma",
-  description: "Helping you buy your dream home. Professional mortgage lending services with expert guidance through every step. Serving Oklahoma and beyond with Fairway Independent Mortgage.",
+  title: "Taylor Eisenbarth - Fairway Independent Mortgage | Home Loans in Florida",
+  description: "Helping you buy your dream home. Professional mortgage lending services with expert guidance through every step. Serving Florida and beyond with Fairway Independent Mortgage.",
 };
 
 export default function RootLayout({

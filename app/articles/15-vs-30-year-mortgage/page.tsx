@@ -517,14 +517,14 @@ export default function FifteenVsThirtyYearMortgage() {
               <p className="text-gray-600 mb-4">Check current mortgage rates and learn what affects daily rate changes.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/conventional-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans in Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Learn about conventional loan requirements and benefits in Oklahoma.</p>
+            <Link href="/articles/conventional-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Conventional Loans in Florida</h3>
+              <p className="text-gray-600 mb-4">Learn about conventional loan requirements and benefits in Florida.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/mortgage-calculator-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Calculate your monthly mortgage payment for Oklahoma homes.</p>
+            <Link href="/articles/mortgage-calculator-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Florida</h3>
+              <p className="text-gray-600 mb-4">Calculate your monthly mortgage payment for Florida homes.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
           </div>
