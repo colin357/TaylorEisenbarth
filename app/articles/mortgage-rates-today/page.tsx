@@ -347,14 +347,14 @@ export default function MortgageRatesToday() {
               <p className="text-gray-600 mb-4">Compare mortgage terms to find the best option for your financial situation.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/fha-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Learn about FHA loan requirements and benefits for Oklahoma homebuyers.</p>
+            <Link href="/articles/fha-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Florida</h3>
+              <p className="text-gray-600 mb-4">Learn about FHA loan requirements and benefits for Florida homebuyers.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/va-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans in Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Explore VA loan benefits for veterans and active military in Oklahoma.</p>
+            <Link href="/articles/va-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans in Florida</h3>
+              <p className="text-gray-600 mb-4">Explore VA loan benefits for veterans and active military in Florida.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
           </div>

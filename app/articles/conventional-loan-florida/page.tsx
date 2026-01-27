@@ -3,12 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Conventional Loans in Oklahoma - Requirements & Rates 2026 | Taylor Eisenbarth",
-  description: "Learn about conventional loans in Oklahoma. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance. Get expert guidance from Taylor Eisenbarth.",
-  keywords: "conventional loan oklahoma, oklahoma conventional mortgage, conventional home loan oklahoma, conventional mortgage rates oklahoma",
+  title: "Conventional Loans in Florida - Requirements & Rates 2026 | Taylor Eisenbarth",
+  description: "Learn about conventional loans in Florida. Competitive rates, flexible down payment options (3-20%), and no upfront mortgage insurance. Get expert guidance from Taylor Eisenbarth.",
+  keywords: "conventional loan florida, florida conventional mortgage, conventional home loan florida, conventional mortgage rates florida",
 };
 
-export default function ConventionalLoanOklahoma() {
+export default function ConventionalLoanFlorida() {
   return (
     <main className="min-h-screen bg-white">
       {/* Article Header */}
@@ -20,12 +20,12 @@ export default function ConventionalLoanOklahoma() {
             </Link>
           </nav>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Conventional Loans in Oklahoma: Your Complete Guide
+            Conventional Loans in Florida: Your Complete Guide
           </h1>
           <div className="flex items-center gap-4 text-gray-600 text-sm">
             <span>By Taylor Eisenbarth</span>
             <span>•</span>
-            <span>Licensed Oklahoma Mortgage Professional</span>
+            <span>Licensed Florida Mortgage Professional</span>
           </div>
         </div>
       </section>
@@ -35,12 +35,12 @@ export default function ConventionalLoanOklahoma() {
         <div className="prose prose-lg max-w-none">
           {/* Introduction */}
           <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            Conventional loans are the most common type of mortgage in Oklahoma, offering competitive interest rates, flexible terms, and the ability to remove private mortgage insurance once you reach 20% equity. Whether you're a first-time homebuyer or an experienced homeowner, understanding conventional loans can help you secure the best financing for your Oklahoma home purchase.
+            Conventional loans are the most common type of mortgage in Florida, offering competitive interest rates, flexible terms, and the ability to remove private mortgage insurance once you reach 20% equity. Whether you're a first-time homebuyer or an experienced homeowner, understanding conventional loans can help you secure the best financing for your Florida home purchase.
           </p>
 
           {/* Quick Facts Box */}
           <div className="bg-gradient-to-r from-primary-green/10 to-emerald-50 border-l-4 border-primary-green p-6 rounded-lg my-8 not-prose">
-            <h3 className="text-xl font-bold text-gray-900 mb-4">Conventional Loan Quick Facts for Oklahoma</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Conventional Loan Quick Facts for Florida</h3>
             <ul className="space-y-2 text-gray-700">
               <li>✓ <strong>Loan Limits:</strong> Up to $766,550 (2026 conforming limit)</li>
               <li>✓ <strong>Down Payment:</strong> As low as 3% for qualified buyers</li>
@@ -55,7 +55,7 @@ export default function ConventionalLoanOklahoma() {
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg my-8 not-prose">
             <h3 className="text-xl font-bold text-gray-900 mb-2">Get Pre-Approved for a Conventional Loan</h3>
             <p className="text-gray-700 mb-4">
-              Let's review your situation and see if a conventional loan offers the best terms for your Oklahoma home purchase.
+              Let's review your situation and see if a conventional loan offers the best terms for your Florida home purchase.
             </p>
             <Link
               href="/#contact"
@@ -72,10 +72,10 @@ export default function ConventionalLoanOklahoma() {
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Conventional loans are the most popular mortgage type in Oklahoma, accounting for over 60% of home purchases. They offer flexibility, competitive rates, and work well for buyers with good credit and stable income.
+            Conventional loans are the most popular mortgage type in Florida, accounting for over 60% of home purchases. They offer flexibility, competitive rates, and work well for buyers with good credit and stable income.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conventional Loan Requirements in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conventional Loan Requirements in Florida</h2>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Credit Score Requirements</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -149,14 +149,14 @@ export default function ConventionalLoanOklahoma() {
             <li>High DTI ratios</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conventional Loan Limits in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conventional Loan Limits in Florida</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            For 2026, the conforming loan limit in Oklahoma is $766,550 for single-family homes. This limit is more than sufficient for the Oklahoma market where the median home price is $193,500.
+            For 2026, the conforming loan limit in Florida is $766,550 for single-family homes. This limit is more than sufficient for the Florida market where the median home price is $193,500.
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6 not-prose">
-            <h4 className="text-lg font-bold text-gray-900 mb-4">2026 Oklahoma Conventional Loan Limits</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-4">2026 Florida Conventional Loan Limits</h4>
             <ul className="space-y-2 text-gray-700">
               <li>• <strong>Single-family home:</strong> $766,550</li>
               <li>• <strong>2-unit property:</strong> $981,500</li>
@@ -257,7 +257,7 @@ export default function ConventionalLoanOklahoma() {
             <li>Allows gifts and grants for entire down payment and closing costs</li>
           </ul>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Advantages of Conventional Loans in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Advantages of Conventional Loans in Florida</h2>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Competitive Interest Rates</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
@@ -283,7 +283,7 @@ export default function ConventionalLoanOklahoma() {
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">4. Higher Loan Limits</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            At $766,550, conventional loan limits exceed FHA limits ($498,257), giving you more purchasing power for higher-priced Oklahoma homes.
+            At $766,550, conventional loan limits exceed FHA limits ($498,257), giving you more purchasing power for higher-priced Florida homes.
           </p>
 
           <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Less Stringent Property Requirements</h3>
@@ -313,7 +313,7 @@ export default function ConventionalLoanOklahoma() {
             While 3% down programs exist, many borrowers need 5-10% down to get reasonable rates, compared to FHA's consistent 3.5% option.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conventional vs. FHA vs. VA Loans in Oklahoma</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conventional vs. FHA vs. VA Loans in Florida</h2>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6 not-prose">
             <div className="overflow-x-auto">
@@ -380,7 +380,7 @@ export default function ConventionalLoanOklahoma() {
           <div className="bg-gradient-to-r from-primary-green to-emerald-600 text-white p-8 rounded-lg my-12 not-prose">
             <h3 className="text-2xl font-bold mb-4">Ready to Get Started with a Conventional Loan?</h3>
             <p className="text-lg mb-6">
-              As a licensed mortgage professional serving Oklahoma, I'll help you determine if a conventional loan offers the best terms for your situation. Let's review your options and get you pre-approved today.
+              As a licensed mortgage professional serving Florida, I'll help you determine if a conventional loan offers the best terms for your situation. Let's review your options and get you pre-approved today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -390,7 +390,7 @@ export default function ConventionalLoanOklahoma() {
                 Get Pre-Approved
               </Link>
               <Link
-                href="/articles/mortgage-calculator-oklahoma"
+                href="/articles/mortgage-calculator-florida"
                 className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-8 py-4 rounded-lg transition text-center"
               >
                 Calculate Your Payment
@@ -400,7 +400,7 @@ export default function ConventionalLoanOklahoma() {
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
-          <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What credit score do I need for a conventional loan in Oklahoma?</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">What credit score do I need for a conventional loan in Florida?</h3>
           <p className="text-gray-700 leading-relaxed mb-6">
             The minimum is 620, but you'll get much better rates with a score of 740 or higher. Each 20-point improvement in your score can lower your rate by 0.25% or more.
           </p>
@@ -425,16 +425,16 @@ export default function ConventionalLoanOklahoma() {
             It depends on your situation. While 20% down eliminates PMI, you might benefit more from a smaller down payment if you can invest the difference elsewhere or need to maintain cash reserves. PMI is also removable once you reach 20% equity through payments or appreciation.
           </p>
 
-          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Work With an Oklahoma Conventional Loan Expert</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Work With an Florida Conventional Loan Expert</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            Choosing the right loan program and structuring it properly can save you thousands over the life of your mortgage. As a licensed mortgage professional with extensive experience in Oklahoma's market, I'll help you navigate conventional loan options and secure the best possible terms.
+            Choosing the right loan program and structuring it properly can save you thousands over the life of your mortgage. As a licensed mortgage professional with extensive experience in Florida's market, I'll help you navigate conventional loan options and secure the best possible terms.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-8">
             <Link href="/#contact" className="text-primary-green hover:text-emerald-600 font-bold">
               Contact me today
-            </Link> to discuss your conventional loan options and start your Oklahoma home buying journey.
+            </Link> to discuss your conventional loan options and start your Florida home buying journey.
           </p>
         </div>
       </article>
@@ -442,20 +442,20 @@ export default function ConventionalLoanOklahoma() {
       {/* Related Articles */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Oklahoma Mortgage Articles</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Related Florida Mortgage Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/articles/fha-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Oklahoma</h3>
+            <Link href="/articles/fha-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">FHA Loans in Florida</h3>
               <p className="text-gray-600 mb-4">Compare FHA and conventional loans for your situation.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/va-loan-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans in Oklahoma</h3>
-              <p className="text-gray-600 mb-4">Learn about VA loan benefits for Oklahoma veterans.</p>
+            <Link href="/articles/va-loan-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">VA Loans in Florida</h3>
+              <p className="text-gray-600 mb-4">Learn about VA loan benefits for Florida veterans.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
-            <Link href="/articles/mortgage-calculator-oklahoma" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Oklahoma</h3>
+            <Link href="/articles/mortgage-calculator-florida" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Mortgage Calculator Florida</h3>
               <p className="text-gray-600 mb-4">Calculate your monthly conventional loan payment.</p>
               <span className="text-primary-green font-semibold">Read More →</span>
             </Link>
