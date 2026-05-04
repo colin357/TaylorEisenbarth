@@ -277,7 +277,7 @@ export default function Home() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-24 bg-white">
+      <section id="contact" className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -293,7 +293,7 @@ export default function Home() {
       </section>
 
       {/* Contact CTA Section */}
-      <section id="contact" className="py-24 bg-gradient-to-br from-primary-green via-emerald-600 to-primary-green-dark text-white relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-br from-primary-green via-emerald-600 to-primary-green-dark text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-pattern opacity-10"></div>
         <div className="absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-emerald-800/20 rounded-full blur-3xl"></div>
