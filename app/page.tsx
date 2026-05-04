@@ -123,11 +123,11 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center group">
-              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">150</div>
-              <div className="text-gray-400 text-lg">Happy Clients</div>
+              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">75</div>
+              <div className="text-gray-400 text-lg">Happy Families</div>
             </div>
             <div className="text-center group">
-              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">65</div>
+              <div className="text-6xl font-bold mb-2 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent group-hover:scale-110 transition-transform">40</div>
               <div className="text-gray-400 text-lg">Loans This Year</div>
             </div>
           </div>
@@ -192,6 +192,10 @@ export default function Home() {
 
                 <p className="text-gray-700 text-lg leading-relaxed">
                   Based in <span className="font-semibold">Florida</span>, Taylor works with a wide range of borrowers and prides himself on fast communication, honest advice, and solutions that make sense for real life. His goal is not just to get loans approved, but to build long-term relationships built on trust and results.
+                </p>
+
+                <p className="text-gray-500 text-sm mt-4">
+                  NMLS #2471936
                 </p>
 
                 <div className="mt-8 pt-6 border-t border-gray-200">
