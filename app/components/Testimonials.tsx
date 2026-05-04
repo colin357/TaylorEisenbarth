@@ -11,39 +11,21 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Jonathan & Isaac",
-    location: "Holland, OK",
-    text: "Taylor and the fairway team took such great care of my fiancé and I - from start to finish, guiding us through the process and explaining it in ways that made perfect sense for us. Taylor took time to make sure we understood the process and kept a clear line of communication open so we weren't wondering where our refinance was at in the process!",
+    name: "Scott Simonelli",
+    location: "",
+    text: "Taylor was extremely friendly, helpful, low pressure, always kept us updated, and terrific to work with. Would definitely recommend Taylor to family and friends!",
     rating: 5
   },
   {
-    name: "Christina",
-    location: "Tulsa, OK",
-    text: "Taylor was easy to understand, kept me informed every step of the way, helped advise me on moves to make to raise my credit score that I wasn't aware of. He helped make my dreams a reality in less than 3 months.",
+    name: "Maddisyn Fuller",
+    location: "",
+    text: "Taylor was amazing! Great communication with us and our realtor helped us fast track our loan when closing date moved up and Always made sure we were Aware of what steps we were on the whole process.",
     rating: 5
   },
   {
-    name: "Rebecca",
-    location: "Lawrence Creek, OK",
-    text: "Taylor made this process so much easier than it was! We had multiple set backs as we were buying while selling our home and he always had/found an answer to any problem we had! He even answered on his family vacation! 10/10 recommend you request Taylor to handle you loan process!",
-    rating: 5
-  },
-  {
-    name: "Cascases",
-    location: "Tulsa, OK",
-    text: "Taylor Eisenbarth!!! He is amazing, made the entire process so smooth. He worked none stop making sure I understood every process thoroughly, I'm a first time home buyer so I had lots of questions. He's very patient! He Never left an email, call or txt unanswered. I wouldn't have wanted to do this with anyone else. He was a perfect fit for me.",
-    rating: 5
-  },
-  {
-    name: "Clifford",
-    location: "Tulsa, OK",
-    text: "Taylor was a great. This was our first home and he was patient and answered all of our questions and helped us every step of the way. Was extremely easy to work with and made the whole process super comfortable. He went above and beyond and got us the loan we needed. We really appreciate the whole team from Fairway Mortgage. They all went above and beyond.",
-    rating: 5
-  },
-  {
-    name: "Kyle",
-    location: "Sand Springs, OK",
-    text: "It was just super easy. I didn't worry about this at all.",
+    name: "Brandy Defount",
+    location: "",
+    text: "Taylor is an amazing lender! He saved a transaction that I had for my buyer where another lender dropped the ball big time. He's extremely professional and communicative. He closed the transaction in 10 days! I would highly recommend him if you're looking to purchase a home!",
     rating: 5
   }
 ];
@@ -92,7 +74,7 @@ export default function Testimonials() {
             {/* Author */}
             <div className="border-t border-gray-200 pt-4">
               <p className="font-bold text-gray-900">{testimonial.name}</p>
-              <p className="text-sm text-gray-500">{testimonial.location}</p>
+              {testimonial.location && <p className="text-sm text-gray-500">{testimonial.location}</p>}
             </div>
           </div>
         ))}
@@ -122,7 +104,7 @@ export default function Testimonials() {
             {/* Author */}
             <div className="border-t border-gray-200 pt-4">
               <p className="font-bold text-gray-900">{testimonial.name}</p>
-              <p className="text-sm text-gray-500">{testimonial.location}</p>
+              {testimonial.location && <p className="text-sm text-gray-500">{testimonial.location}</p>}
             </div>
           </div>
         ))}
