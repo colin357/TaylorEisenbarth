@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 const steps = [
   {
@@ -86,13 +86,6 @@ export default function ProcessTimeline() {
   const prev = () => goTo((active - 1 + steps.length) % steps.length);
   const next = () => goTo((active + 1) % steps.length);
 
-  // Auto-advance every 6 seconds
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setActive((prev) => (prev + 1) % steps.length);
-    }, 6000);
-    return () => clearInterval(timer);
-  }, []);
 
   const step = steps[active];
 
