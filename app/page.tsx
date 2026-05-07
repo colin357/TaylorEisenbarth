@@ -2,7 +2,9 @@ import Image from "next/image";
 import FAQAccordion from "./components/FAQAccordion";
 import StickyContact from "./components/StickyContact";
 import SocialProof from "./components/SocialProof";
+import GoogleReviewPopup from "./components/GoogleReviewPopup";
 import ProcessTimeline from "./components/ProcessTimeline";
+import MortgageCalculator from "./components/MortgageCalculator";
 import Testimonials from "./components/Testimonials";
 import ContactForm from "./components/ContactForm";
 
@@ -12,6 +14,7 @@ export default function Home() {
       {/* Sticky Components */}
       <StickyContact />
       <SocialProof />
+      <GoogleReviewPopup />
       {/* Header */}
       <header className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-100">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -151,6 +154,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Fairway Now Application Section */}
+      <section className="py-24 bg-gradient-to-br from-emerald-50 via-white to-blue-50 relative overflow-hidden">
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary-green/5 rounded-full blur-3xl"></div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Ready to Get Started?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Apply online in minutes through <span className="font-semibold text-primary-green">Fairway Now</span> — Taylor's secure client portal.
+            </p>
+            <div className="w-24 h-1 bg-gradient-to-r from-primary-green to-emerald-600 mx-auto rounded-full mt-6"></div>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100">
+            <div className="grid md:grid-cols-3 gap-8 mb-10">
+              <div className="text-center">
+                <div className="w-14 h-14 bg-gradient-to-r from-primary-green to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-xl">1</span>
+                </div>
+                <h3 className="font-bold text-gray-900 text-lg mb-2">Create Your Account</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Sign up on Fairway Now — it takes less than two minutes and is completely free.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-14 h-14 bg-gradient-to-r from-primary-green to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-xl">2</span>
+                </div>
+                <h3 className="font-bold text-gray-900 text-lg mb-2">Submit Your Documents</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Securely upload your information and documents right in the portal — no faxing, no paperwork.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-14 h-14 bg-gradient-to-r from-primary-green to-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-xl">3</span>
+                </div>
+                <h3 className="font-bold text-gray-900 text-lg mb-2">Stay in Touch with Taylor</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Message Taylor directly through Fairway Now to ask questions, check your status, or get updates anytime.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <a
+                href="https://mobile.fairwaynow.com/dr/c/sdr4y"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-gradient-to-r from-primary-green to-emerald-600 hover:from-primary-green-dark hover:to-emerald-700 text-white font-bold px-10 py-4 rounded-full transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 text-lg"
+              >
+                Start My Application
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+              <p className="text-sm text-gray-500 mt-4">
+                Powered by <span className="font-semibold">Fairway Now</span> — safe, secure, and built for a smooth closing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Me Section */}
       <section id="about" className="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary-green/5 rounded-full blur-3xl"></div>
@@ -256,6 +324,23 @@ export default function Home() {
             <div className="w-24 h-1 bg-gradient-to-r from-primary-green to-emerald-600 mx-auto rounded-full mt-6"></div>
           </div>
           <Testimonials />
+        </div>
+      </section>
+
+      {/* Mortgage Calculator Section */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-96 h-96 bg-emerald-50 rounded-full blur-3xl"></div>
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Estimate Your Payment
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Use the calculator below to get a quick estimate, then contact Taylor for an exact quote.
+            </p>
+            <div className="w-24 h-1 bg-gradient-to-r from-primary-green to-emerald-600 mx-auto rounded-full mt-6"></div>
+          </div>
+          <MortgageCalculator />
         </div>
       </section>
 
