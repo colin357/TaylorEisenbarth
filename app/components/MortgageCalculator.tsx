@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function MortgageCalculator() {
   const [loanAmount, setLoanAmount] = useState(300000);
-  const [interestRate, setInterestRate] = useState(6.5);
+  const [interestRate, setInterestRate] = useState(6.0);
   const [loanTerm, setLoanTerm] = useState(30);
   const [monthlyPayment, setMonthlyPayment] = useState(0);
 
