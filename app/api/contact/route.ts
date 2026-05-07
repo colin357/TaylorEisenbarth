@@ -2,54 +2,36 @@ import { NextRequest, NextResponse } from 'next/server';
 import twilio from 'twilio';
 
 export async function POST(request: NextRequest) {
-  try {
-    const formData = await request.formData();
-    const name = formData.get('name') as string;
-    const phone = formData.get('phone') as string;
-    const email = formData.get('email') as string;
-    const message = formData.get('message') as string || 'No message provided';
+  const formData = await request.formData();
+  const name = formData.get('name') as string;
+  const phone = formData.get('phone') as string;
+  const email = formData.get('email') as string;
+  const message = (formData.get('message') as string) || 'No message provided';
 
-    // Validate required fields
-    if (!name || !phone || !email) {
-      return NextResponse.json(
-        { error: 'Name, phone, and email are required' },
-        { status: 400 }
-      );
-    }
-
-    // Initialize Twilio client
-    const accountSid = process.env.TWILIO_ACCOUNT_SID;
-    const authToken = process.env.TWILIO_AUTH_TOKEN;
-    const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER;
-    const yourPhoneNumber = process.env.YOUR_PHONE_NUMBER;
-
-    if (!accountSid || !authToken || !twilioPhoneNumber || !yourPhoneNumber) {
-      console.error('Missing Twilio environment variables');
-      return NextResponse.json(
-        { error: 'Server configuration error' },
-        { status: 500 }
-      );
-    }
-
-    const client = twilio(accountSid, authToken);
-
-    // Create SMS message
-    const smsBody = `New Contact Form Submission!\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`;
-
-    // Send SMS via Twilio
-    await client.messages.create({
-      body: smsBody,
-      from: twilioPhoneNumber,
-      to: yourPhoneNumber,
-    });
-
-    // Redirect to thank you page or back to home with success message
-    return NextResponse.redirect(new URL('/?success=true', request.url));
-  } catch (error) {
-    console.error('Error processing contact form:', error);
+  if (!name || !phone || !email) {
     return NextResponse.json(
-      { error: 'Failed to send message' },
-      { status: 500 }
+      { error: 'Name, phone, and email are required' },
+      { status: 400 }
     );
   }
+
+  // Attempt SMS — log failures but never block the form submission
+  const accountSid = process.env.TWILIO_ACCOUNT_SID;
+  const authToken = process.env.TWILIO_AUTH_TOKEN;
+  const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER;
+  const yourPhoneNumber = process.env.YOUR_PHONE_NUMBER;
+
+  if (accountSid && authToken && twilioPhoneNumber && yourPhoneNumber) {
+    try {
+      const client = twilio(accountSid, authToken);
+      const smsBody = `New Lead!\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`;
+      await client.messages.create({ body: smsBody, from: twilioPhoneNumber, to: yourPhoneNumber });
+    } catch (smsError) {
+      console.error('Twilio SMS failed:', smsError);
+    }
+  } else {
+    console.warn('Twilio env vars not configured — skipping SMS notification');
+  }
+
+  return NextResponse.json({ success: true });
 }

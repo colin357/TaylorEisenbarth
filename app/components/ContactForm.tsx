@@ -21,16 +21,17 @@ export default function ContactForm() {
         body: formData,
       });
 
-      if (response.ok) {
+      const data = await response.json();
+
+      if (response.ok && data.success) {
         setShowSuccess(true);
         form.reset();
         setTimeout(() => setShowSuccess(false), 5000);
       } else {
-        const data = await response.json();
-        setError(data.error || 'Thanks! Your informattion was successfully submitted.');
+        setError(data.error || 'Something went wrong. Please try again or call Taylor directly.');
       }
     } catch (err) {
-      setError('Thanks! Your informattion was successfully submitted.');
+      setError('Something went wrong. Please try again or call Taylor directly.');
     } finally {
       setIsSubmitting(false);
     }
