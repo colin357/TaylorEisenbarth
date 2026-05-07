@@ -19,8 +19,8 @@ export default function MortgageCalculator() {
       : (loanAmount * monthlyRate * Math.pow(1 + monthlyRate, numPayments)) /
         (Math.pow(1 + monthlyRate, numPayments) - 1);
 
-  // Estimates: ~1.1% of purchase price per year for taxes, ~0.5% for insurance
-  const monthlyTaxes = (purchasePrice * 0.011) / 12;
+  // Estimates: ~0.83% of purchase price per year for taxes (Florida avg), ~0.5% for insurance
+  const monthlyTaxes = (purchasePrice * 0.0083) / 12;
   const monthlyInsurance = (purchasePrice * 0.005) / 12;
   const totalMonthly = principalAndInterest + monthlyTaxes + monthlyInsurance;
 
