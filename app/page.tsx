@@ -43,7 +43,49 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="home" className="relative bg-gradient-to-br from-emerald-50 via-white to-blue-50 py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        {/* Decorative background */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <svg
+            className="absolute inset-0 w-full h-full"
+            viewBox="0 0 1440 900"
+            preserveAspectRatio="xMidYMid slice"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {/* Concentric arcs — top right */}
+            {[160, 300, 450, 610, 780, 960, 1150].map((r, i) => (
+              <circle key={`arc-tr-${i}`} cx="1440" cy="0" r={r} fill="none" stroke="rgba(55,202,55,0.09)" strokeWidth="1" />
+            ))}
+            {/* Concentric arcs — bottom left (blue tint) */}
+            {[180, 360, 540, 720].map((r, i) => (
+              <circle key={`arc-bl-${i}`} cx="0" cy="900" r={r} fill="none" stroke="rgba(24,139,246,0.06)" strokeWidth="1" />
+            ))}
+            {/* Diagonal lines */}
+            {[-300, -100, 100, 300, 500, 700, 900, 1100, 1300, 1500, 1700].map((x, i) => (
+              <line key={`diag-${i}`} x1={x} y1="900" x2={x + 750} y2="0" stroke="rgba(55,202,55,0.05)" strokeWidth="1" />
+            ))}
+            {/* Scattered dots */}
+            {[
+              [210, 140], [490, 75], [730, 195], [1110, 110], [1310, 240],
+              [330, 430], [860, 340], [1220, 520], [70, 280], [640, 580],
+            ].map(([cx, cy], i) => (
+              <circle key={`dot-${i}`} cx={cx} cy={cy} r="3.5" fill="rgba(55,202,55,0.18)" />
+            ))}
+            {/* Crosshair markers */}
+            {[[600, 145], [980, 310], [155, 560], [1360, 460]].map(([cx, cy], i) => (
+              <g key={`cross-${i}`} stroke="rgba(55,202,55,0.15)" strokeWidth="1.5" strokeLinecap="round">
+                <line x1={cx - 9} y1={cy} x2={cx + 9} y2={cy} />
+                <line x1={cx} y1={cy - 9} x2={cx} y2={cy + 9} />
+              </g>
+            ))}
+            {/* Small corner diamond accents */}
+            {[[80, 80], [1360, 820]].map(([cx, cy], i) => (
+              <rect key={`diamond-${i}`} x={cx} y={cy} width="10" height="10" transform={`rotate(45 ${cx + 5} ${cy + 5})`} fill="none" stroke="rgba(55,202,55,0.2)" strokeWidth="1.5" />
+            ))}
+          </svg>
+          {/* Soft color blobs */}
+          <div className="absolute -top-20 right-0 w-[500px] h-[500px] bg-primary-green/5 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 -left-20 w-96 h-96 bg-blue-400/5 rounded-full blur-3xl" />
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4 leading-tight">
