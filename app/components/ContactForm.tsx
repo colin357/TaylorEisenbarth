@@ -266,7 +266,7 @@ export default function ContactForm() {
               value={market}
               onChange={(e) => setMarket(e.target.value)}
               className={inputClass}
-              placeholder="e.g. Tulsa, OK"
+              placeholder="e.g. Tampa, FL"
             />
           </div>
 

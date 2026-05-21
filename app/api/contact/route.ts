@@ -24,35 +24,31 @@ export async function POST(request: NextRequest) {
     const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER;
     const yourPhoneNumber = process.env.YOUR_PHONE_NUMBER;
 
-    if (!accountSid || !authToken || !twilioPhoneNumber || !yourPhoneNumber) {
-      console.error('Missing Twilio environment variables');
-      return NextResponse.json(
-        { error: 'Server configuration error' },
-        { status: 500 }
-      );
+    if (accountSid && authToken && twilioPhoneNumber && yourPhoneNumber) {
+      const client = twilio(accountSid, authToken);
+
+      const smsBody = [
+        '🏠 New Lead from Contact Form!',
+        '',
+        `Name: ${name}`,
+        `Phone: ${phone}`,
+        `Email: ${email}`,
+        '',
+        'Home Buying Goals:',
+        `Credit Score: ~${creditScore}`,
+        `Target Purchase Price: $${purchasePrice}`,
+        `Target Monthly Payment: $${monthlyPayment}`,
+        `Market: ${market}`,
+      ].join('\n');
+
+      await client.messages.create({
+        body: smsBody,
+        from: twilioPhoneNumber,
+        to: yourPhoneNumber,
+      });
+    } else {
+      console.error('Missing Twilio environment variables — SMS not sent');
     }
-
-    const client = twilio(accountSid, authToken);
-
-    const smsBody = [
-      '🏠 New Lead from Contact Form!',
-      '',
-      `Name: ${name}`,
-      `Phone: ${phone}`,
-      `Email: ${email}`,
-      '',
-      'Home Buying Goals:',
-      `Credit Score: ~${creditScore}`,
-      `Target Purchase Price: $${purchasePrice}`,
-      `Target Monthly Payment: $${monthlyPayment}`,
-      `Market: ${market}`,
-    ].join('\n');
-
-    await client.messages.create({
-      body: smsBody,
-      from: twilioPhoneNumber,
-      to: yourPhoneNumber,
-    });
 
     return NextResponse.json({ success: true });
   } catch (error) {
