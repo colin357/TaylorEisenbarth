@@ -323,32 +323,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Client Success Photos */}
-          <div className="mt-20">
-            <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">Happy Clients</h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all">
-                <Image
-                  src="/images/Image 4.jpg"
-                  alt="Happy homeowners"
-                  width={600}
-                  height={450}
-                  className="object-cover object-top w-full h-80 transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              </div>
-              <div className="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all">
-                <Image
-                  src="/images/Image 5.jpg"
-                  alt="Successful home closing"
-                  width={600}
-                  height={450}
-                  className="object-cover object-top w-full h-80 transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
