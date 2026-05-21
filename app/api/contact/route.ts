@@ -7,9 +7,11 @@ export async function POST(request: NextRequest) {
     const name = formData.get('name') as string;
     const phone = formData.get('phone') as string;
     const email = formData.get('email') as string;
-    const message = formData.get('message') as string || 'No message provided';
+    const creditScore = (formData.get('creditScore') as string) || 'Not provided';
+    const purchasePrice = (formData.get('purchasePrice') as string) || 'Not provided';
+    const monthlyPayment = (formData.get('monthlyPayment') as string) || 'Not provided';
+    const market = (formData.get('market') as string) || 'Not provided';
 
-    // Validate required fields
     if (!name || !phone || !email) {
       return NextResponse.json(
         { error: 'Name, phone, and email are required' },
@@ -17,7 +19,6 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Initialize Twilio client
     const accountSid = process.env.TWILIO_ACCOUNT_SID;
     const authToken = process.env.TWILIO_AUTH_TOKEN;
     const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER;
@@ -33,18 +34,27 @@ export async function POST(request: NextRequest) {
 
     const client = twilio(accountSid, authToken);
 
-    // Create SMS message
-    const smsBody = `New Contact Form Submission!\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`;
+    const smsBody = [
+      '🏠 New Lead from Contact Form!',
+      '',
+      `Name: ${name}`,
+      `Phone: ${phone}`,
+      `Email: ${email}`,
+      '',
+      'Home Buying Goals:',
+      `Credit Score: ~${creditScore}`,
+      `Target Purchase Price: $${purchasePrice}`,
+      `Target Monthly Payment: $${monthlyPayment}`,
+      `Market: ${market}`,
+    ].join('\n');
 
-    // Send SMS via Twilio
     await client.messages.create({
       body: smsBody,
       from: twilioPhoneNumber,
       to: yourPhoneNumber,
     });
 
-    // Redirect to thank you page or back to home with success message
-    return NextResponse.redirect(new URL('/?success=true', request.url));
+    return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Error processing contact form:', error);
     return NextResponse.json(
