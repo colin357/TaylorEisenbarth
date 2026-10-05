@@ -29,14 +29,6 @@ const event: EventDetails = {
       logoWidth: 150,
       logoHeight: 56,
     },
-    {
-      name: 'Brooke Morris',
-      company: 'Keller Williams',
-      photo: '/images/events/brooke-morris.jpg',
-      logo: '/images/events/keller-williams-logo.png',
-      logoWidth: 150,
-      logoHeight: 89,
-    },
   ],
 };
 
