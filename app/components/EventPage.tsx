@@ -210,6 +210,7 @@ export default function EventPage({ event }: { event: EventDetails }) {
         <div className="max-w-6xl mx-auto px-4 text-center text-sm text-gray-500 space-y-1">
           <p>Questions? Call or text Taylor at <a href="tel:+13073317130" className="font-semibold text-gray-700 hover:underline">(307) 331-7130</a></p>
           <p>Taylor Eisenbarth · Fairway Independent Mortgage Corporation · NMLS #2289</p>
+          <p>Designed by <a href="https://ownitsocial.com" target="_blank" rel="noopener" className="hover:underline">Own It Social</a></p>
         </div>
       </footer>
     </main>

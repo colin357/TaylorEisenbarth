@@ -500,7 +500,7 @@ export default function Landing2Page() {
             </div>
 
             <div className="text-xs text-gray-500 mb-8 leading-relaxed">
-              <p>© Copyright 2025 Fairway Independent Mortgage Corporation | NMLS # 2289 | All rights reserved. <a href="https://nmlsconsumeraccess.org/" className="text-primary-green hover:text-emerald-400 transition">nmlsconsumeraccess.org</a></p>
+              <p>© Copyright 2025 Fairway Independent Mortgage Corporation | NMLS # 2289 | All rights reserved. <a href="https://nmlsconsumeraccess.org/" className="text-primary-green hover:text-emerald-400 transition">nmlsconsumeraccess.org</a> | Designed by <a href="https://ownitsocial.com" target="_blank" rel="noopener" className="hover:text-emerald-400 transition">Own It Social</a></p>
             </div>
 
             <div className="flex flex-wrap items-center gap-12 justify-center md:justify-start pt-6 border-t border-gray-800">
